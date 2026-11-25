@@ -1,0 +1,36 @@
+[18:07:49] [s7t ciciot2023] start {'kernel_sha256': '5f550527f1fe4146a198f7db23536e6f0186dbb73d94e11afb7782445bcf9255', 's7c_sha256': 'b82d5c0e6ef91265782b90122dfb8eafcdbec24ce5783cd0fbc3bdb09af1d2ca', 'script_sha256': '855ce3215b08ae5c1df718678e88e912170ac1f93e807c35df17e46384c53031', 'nice': 10, 'core': 10, 'repeats': 15} | load (3.998046875, 3.888671875, 3.48486328125)
+[18:08:30] [s7t ciciot2023] G0 data: {'n': 1500000, 'n_expected': 1500000, 'features_equal': True, 'y_hash_equal': True}
+WARNING:tensorflow:AutoGraph could not transform <bound method SpikingLayer.call of <SpikingLayer object at 0x75016fbdee00>> and will run it as-is.
+Cause: Unable to locate the source code of <bound method SpikingLayer.call of <SpikingLayer object at 0x75016fbdee00>>. Note that functions defined in certain environments, like the interactive Python shell, do not expose their source code. If that is the case, you should define them in a .py source file. If you are certain the code is graph-compatible, wrap the call using @tf.autograph.experimental.do_not_convert. Original error: source code not available
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+[18:08:57] [s7t ciciot2023] s0_f0: dAUC max 3.12e-07 | G2 ok | T2 memo x0.331 hit 0.931 | T3 memo x0.393 hit 0.829 | T5 memo x0.538 hit 0.646 | T7 memo x0.648 hit 0.517 | load 3.95
+[18:09:24] [s7t ciciot2023] s0_f1: dAUC max 2.83e-06 | G2 ok | T2 memo x0.403 hit 0.956 | T3 memo x0.512 hit 0.841 | T5 memo x0.657 hit 0.695 | T7 memo x0.848 hit 0.516 | load 4.16
+[18:09:52] [s7t ciciot2023] s0_f2: dAUC max 4.47e-07 | G2 ok | T2 memo x0.359 hit 0.947 | T3 memo x0.440 hit 0.837 | T5 memo x0.619 hit 0.645 | T7 memo x0.749 hit 0.496 | load 4.06
+[18:10:19] [s7t ciciot2023] s0_f3: dAUC max 1.03e-06 | G2 ok | T2 memo x0.354 hit 0.957 | T3 memo x0.463 hit 0.820 | T5 memo x0.653 hit 0.603 | T7 memo x0.751 hit 0.531 | load 4.48
+[18:10:46] [s7t ciciot2023] s0_f4: dAUC max 4.90e-07 | G2 ok | T2 memo x0.412 hit 0.946 | T3 memo x0.451 hit 0.866 | T5 memo x0.689 hit 0.624 | T7 memo x0.812 hit 0.516 | load 5.12
+[18:11:13] [s7t ciciot2023] s0_f5: dAUC max 1.95e-06 | G2 ok | T2 memo x0.406 hit 0.930 | T3 memo x0.470 hit 0.829 | T5 memo x0.654 hit 0.580 | T7 memo x0.768 hit 0.497 | load 4.98
+[18:11:40] [s7t ciciot2023] s0_f6: dAUC max 8.29e-07 | G2 ok | T2 memo x0.349 hit 0.939 | T3 memo x0.399 hit 0.861 | T5 memo x0.575 hit 0.641 | T7 memo x0.689 hit 0.539 | load 4.23
+[18:12:07] [s7t ciciot2023] s0_f7: dAUC max 1.47e-06 | G2 ok | T2 memo x0.358 hit 0.932 | T3 memo x0.447 hit 0.848 | T5 memo x0.622 hit 0.587 | T7 memo x0.741 hit 0.501 | load 4.32
+[18:12:33] [s7t ciciot2023] s0_f8: dAUC max 1.65e-06 | G2 ok | T2 memo x0.374 hit 0.959 | T3 memo x0.453 hit 0.843 | T5 memo x0.640 hit 0.625 | T7 memo x0.766 hit 0.516 | load 3.88
+[18:12:59] [s7t ciciot2023] s0_f9: dAUC max 1.37e-06 | G2 ok | T2 memo x0.365 hit 0.945 | T3 memo x0.436 hit 0.830 | T5 memo x0.604 hit 0.654 | T7 memo x0.716 hit 0.520 | load 3.67
+[18:13:25] [s7t ciciot2023] s1_f0: dAUC max 1.87e-06 | G2 ok | T2 memo x0.345 hit 0.948 | T3 memo x0.409 hit 0.845 | T5 memo x0.586 hit 0.635 | T7 memo x0.695 hit 0.505 | load 3.53
+[18:13:53] [s7t ciciot2023] s1_f1: dAUC max 8.40e-07 | G2 ok | T2 memo x0.350 hit 0.937 | T3 memo x0.422 hit 0.799 | T5 memo x0.610 hit 0.598 | T7 memo x0.701 hit 0.503 | load 3.81
+[18:14:20] [s7t ciciot2023] s1_f2: dAUC max 1.39e-06 | G2 ok | T2 memo x0.402 hit 0.953 | T3 memo x0.466 hit 0.834 | T5 memo x0.685 hit 0.605 | T7 memo x0.809 hit 0.492 | load 4.15
+[18:14:48] [s7t ciciot2023] s1_f3: dAUC max 6.25e-07 | G2 ok | T2 memo x0.400 hit 0.954 | T3 memo x0.491 hit 0.841 | T5 memo x0.682 hit 0.606 | T7 memo x0.795 hit 0.512 | load 3.61
+[18:15:15] [s7t ciciot2023] s1_f4: dAUC max 8.47e-06 | G2 ok | T2 memo x0.322 hit 0.952 | T3 memo x0.401 hit 0.861 | T5 memo x0.549 hit 0.654 | T7 memo x0.676 hit 0.504 | load 3.59
+[18:15:41] [s7t ciciot2023] s1_f5: dAUC max 4.34e-06 | G2 ok | T2 memo x0.375 hit 0.957 | T3 memo x0.444 hit 0.850 | T5 memo x0.593 hit 0.628 | T7 memo x0.708 hit 0.515 | load 3.51
+[18:16:08] [s7t ciciot2023] s1_f6: dAUC max 1.30e-06 | G2 ok | T2 memo x0.358 hit 0.956 | T3 memo x0.433 hit 0.840 | T5 memo x0.597 hit 0.590 | T7 memo x0.673 hit 0.526 | load 4.08
+[18:16:35] [s7t ciciot2023] s1_f7: dAUC max 1.51e-07 | G2 ok | T2 memo x0.410 hit 0.951 | T3 memo x0.472 hit 0.825 | T5 memo x0.679 hit 0.620 | T7 memo x0.783 hit 0.517 | load 4.01
+[18:17:02] [s7t ciciot2023] s1_f8: dAUC max 3.67e-07 | G2 ok | T2 memo x0.394 hit 0.926 | T3 memo x0.440 hit 0.821 | T5 memo x0.640 hit 0.603 | T7 memo x0.734 hit 0.505 | load 3.78
+[18:17:29] [s7t ciciot2023] s1_f9: dAUC max 1.08e-06 | G2 ok | T2 memo x0.381 hit 0.944 | T3 memo x0.464 hit 0.861 | T5 memo x0.614 hit 0.651 | T7 memo x0.717 hit 0.537 | load 3.78
+[18:17:56] [s7t ciciot2023] s2_f0: dAUC max 1.01e-06 | G2 ok | T2 memo x0.360 hit 0.941 | T3 memo x0.448 hit 0.805 | T5 memo x0.598 hit 0.636 | T7 memo x0.713 hit 0.532 | load 3.84
+[18:18:23] [s7t ciciot2023] s2_f1: dAUC max 1.13e-07 | G2 ok | T2 memo x0.351 hit 0.945 | T3 memo x0.409 hit 0.858 | T5 memo x0.611 hit 0.592 | T7 memo x0.728 hit 0.530 | load 4.14
+[18:18:50] [s7t ciciot2023] s2_f2: dAUC max 6.74e-06 | G2 ok | T2 memo x0.401 hit 0.945 | T3 memo x0.466 hit 0.866 | T5 memo x0.653 hit 0.619 | T7 memo x0.749 hit 0.554 | load 4.12
+[18:19:17] [s7t ciciot2023] s2_f3: dAUC max 3.56e-06 | G2 ok | T2 memo x0.348 hit 0.959 | T3 memo x0.427 hit 0.839 | T5 memo x0.603 hit 0.616 | T7 memo x0.707 hit 0.519 | load 4.13
+[18:19:43] [s7t ciciot2023] s2_f4: dAUC max 1.13e-06 | G2 ok | T2 memo x0.410 hit 0.946 | T3 memo x0.479 hit 0.852 | T5 memo x0.631 hit 0.649 | T7 memo x0.777 hit 0.533 | load 3.73
+[18:20:10] [s7t ciciot2023] s2_f5: dAUC max 1.21e-06 | G2 ok | T2 memo x0.363 hit 0.929 | T3 memo x0.426 hit 0.817 | T5 memo x0.575 hit 0.628 | T7 memo x0.715 hit 0.517 | load 4.04
+[18:20:37] [s7t ciciot2023] s2_f6: dAUC max 4.86e-07 | G2 ok | T2 memo x0.358 hit 0.951 | T3 memo x0.441 hit 0.817 | T5 memo x0.590 hit 0.599 | T7 memo x0.722 hit 0.512 | load 5.66
+[18:21:04] [s7t ciciot2023] s2_f7: dAUC max 2.25e-06 | G2 ok | T2 memo x0.380 hit 0.953 | T3 memo x0.453 hit 0.852 | T5 memo x0.653 hit 0.649 | T7 memo x0.770 hit 0.525 | load 5.55
+[18:21:30] [s7t ciciot2023] s2_f8: dAUC max 4.60e-07 | G2 ok | T2 memo x0.346 hit 0.951 | T3 memo x0.421 hit 0.830 | T5 memo x0.624 hit 0.603 | T7 memo x0.708 hit 0.513 | load 4.80
+[18:21:57] [s7t ciciot2023] s2_f9: dAUC max 1.01e-06 | G2 ok | T2 memo x0.407 hit 0.945 | T3 memo x0.455 hit 0.830 | T5 memo x0.656 hit 0.643 | T7 memo x0.757 hit 0.522 | load 4.17
+[18:21:57] [s7t ciciot2023] done: /home/jupyteruser/nix-ext-backup/0-eksperimen-final/0-snn-ae-revision/15-s7t/results/ciciot2023

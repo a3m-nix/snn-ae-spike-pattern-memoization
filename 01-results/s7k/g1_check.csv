@@ -1,0 +1,13 @@
+dataset,variant,ref,max_abs_dAUC,max_abs_dF1,pass
+edge_iiotset,SNN_EXACT,S7x-ij accuracy_long,0.0,0.0,True
+edge_iiotset,SNN_RQC_16,S7x-ij accuracy_long,0.0,0.0,True
+edge_iiotset,SNN_RQT_16,S7x-ij accuracy_long,0.0,0.0,True
+edge_iiotset,DENSE_ZS,acc30_long (deskriptif),7.024963277757479e-09,2.220446049250313e-16,True
+edge_iiotset,DENSE_AQV33_16,acc30_long (deskriptif),0.0,2.220446049250313e-16,True
+edge_iiotset,DENSE_AQV32_16,acc30_long (deskriptif),0.0,2.220446049250313e-16,True
+ciciot2023,SNN_EXACT,S7x-ij accuracy_long,0.0,0.0,True
+ciciot2023,SNN_RQC_16,S7x-ij accuracy_long,0.0,0.0,True
+ciciot2023,SNN_RQT_16,S7x-ij accuracy_long,0.0,0.0,True
+ciciot2023,DENSE_ZS,acc30_long (deskriptif),2.948179926853811e-07,1.1102230246251565e-16,True
+ciciot2023,DENSE_AQV33_16,acc30_long (deskriptif),0.0,1.1102230246251565e-16,True
+ciciot2023,DENSE_AQV32_16,acc30_long (deskriptif),0.0,1.1102230246251565e-16,True

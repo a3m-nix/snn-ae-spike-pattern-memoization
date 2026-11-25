@@ -1,0 +1,38 @@
+{
+  "dataset": "edge_iiotset",
+  "system": {
+    "time": "2026-10-30T00:20:18.572909",
+    "machine": "aarch64",
+    "loadavg": "1.42 1.25 1.10 1/453 52997",
+    "governor": "ondemand",
+    "freq_mhz": 2400.0,
+    "temp_c": 62.25
+  },
+  "rows": [
+    {
+      "unit": "s0_f0",
+      "RQC_invariant_cap_and_prefill": true,
+      "RQC_finite": true,
+      "RQT_invariant_cap_and_prefill": true,
+      "RQT_finite": true,
+      "pass": true
+    },
+    {
+      "unit": "s1_f0",
+      "RQC_invariant_cap_and_prefill": true,
+      "RQC_finite": true,
+      "RQT_invariant_cap_and_prefill": true,
+      "RQT_finite": true,
+      "pass": true
+    },
+    {
+      "unit": "s2_f0",
+      "RQC_invariant_cap_and_prefill": true,
+      "RQC_finite": true,
+      "RQT_invariant_cap_and_prefill": true,
+      "RQT_finite": true,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

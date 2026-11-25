@@ -1,0 +1,17 @@
+unit,T,order,prefill,bit_identical
+s1_f9,2,capture,False,True
+s1_f9,2,capture,True,True
+s1_f9,2,random,False,True
+s1_f9,2,random,True,True
+s1_f9,3,capture,False,True
+s1_f9,3,capture,True,True
+s1_f9,3,random,False,True
+s1_f9,3,random,True,True
+s1_f9,5,capture,False,True
+s1_f9,5,capture,True,True
+s1_f9,5,random,False,True
+s1_f9,5,random,True,True
+s1_f9,7,capture,False,True
+s1_f9,7,capture,True,True
+s1_f9,7,random,False,True
+s1_f9,7,random,True,True

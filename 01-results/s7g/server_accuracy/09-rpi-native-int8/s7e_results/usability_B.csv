@@ -1,0 +1,9 @@
+dataset,scheme,model,n_units,median_delta_auc,median_delta_f1,usable_int8,bits
+ciciot2023,selected,Dense_AE,30,-0.03944027230481985,-0.0346808810501719,False,6
+ciciot2023,selected,SNN_AE,30,-0.012811728364902901,-0.0439128766009407,False,6
+edge_iiotset,selected,Dense_AE,30,-0.1042127027407296,-0.1866647661496617,False,6
+edge_iiotset,selected,SNN_AE,30,-0.00038294902585185,-0.0013682271942397,True,6
+ciciot2023,selected,Dense_AE,30,-0.16436905304093752,-0.30400012700522117,False,4
+ciciot2023,selected,SNN_AE,30,-0.09323346422762875,-0.2118484951563212,False,4
+edge_iiotset,selected,Dense_AE,30,-0.24910498192828212,-0.3719947548919098,False,4
+edge_iiotset,selected,SNN_AE,30,-0.0154712364433951,-0.0939758841626282,False,4

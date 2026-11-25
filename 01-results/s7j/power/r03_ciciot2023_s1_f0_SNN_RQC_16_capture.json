@@ -1,0 +1,34 @@
+{
+  "power_valid": true,
+  "passes": 898,
+  "elapsed_s": 30.031563446999826,
+  "fnirsi_rate_hz": 99.76170588945153,
+  "n_per_pass": 127864,
+  "latency_us_per_sample_median": 0.26103519364092664,
+  "idle_measurement": {
+    "pbus_idle_w": 4.161531487693065,
+    "target_temp_c": 57.65,
+    "temp_at_idle_c": 57.3,
+    "cooldown_wait_s": 10.000644207000732,
+    "cooldown_timed_out": false
+  },
+  "round": 3,
+  "dataset": "ciciot2023",
+  "unit": "s1_f0",
+  "variant": "SNN_RQC_16",
+  "order": "capture",
+  "system": {
+    "time": "2026-10-30T15:07:28.234838",
+    "machine": "aarch64",
+    "loadavg": "0.69 0.59 0.61 1/454 8474",
+    "governor": "ondemand",
+    "freq_mhz": 2400.0,
+    "temp_c": 62.25
+  },
+  "pbus_idle_w": 4.161531487693065,
+  "pbus_inference_w": 6.068213134359847,
+  "p_delta_w": 1.9066816466667822,
+  "board_energy_delta_mj_per_sample": 0.0004986457808385903,
+  "board_energy_active_mj_per_sample": 0.0015869921871685534,
+  "throughput_sps": 3823719.6020394433
+}

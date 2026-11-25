@@ -1,0 +1,50 @@
+{
+  "dataset": "edge_iiotset",
+  "system": {
+    "time": "2026-11-18T17:05:10.168201",
+    "machine": "aarch64",
+    "loadavg": "0.37 0.13 0.06 1/414 9868",
+    "governor": "ondemand",
+    "freq_mhz": 2400.0,
+    "temp_c": 60.6
+  },
+  "rows": [
+    {
+      "unit": "s0_f0",
+      "bitid_SNN_MEMOV3_12_cold": true,
+      "bitid_SNN_MEMOV3_12_val": true,
+      "bitid_SNN_MEMOV3_14_cold": true,
+      "bitid_SNN_MEMOV3_14_val": true,
+      "bitid_DENSE_AQV32_12_vs_AQ2": true,
+      "bitid_DENSE_AQV32_14_vs_AQ2": true,
+      "bitid_DENSE_AQV33_12_vs_AQ3": true,
+      "bitid_DENSE_AQV33_14_vs_AQ3": true,
+      "pass": true
+    },
+    {
+      "unit": "s1_f0",
+      "bitid_SNN_MEMOV3_12_cold": true,
+      "bitid_SNN_MEMOV3_12_val": true,
+      "bitid_SNN_MEMOV3_14_cold": true,
+      "bitid_SNN_MEMOV3_14_val": true,
+      "bitid_DENSE_AQV32_12_vs_AQ2": true,
+      "bitid_DENSE_AQV32_14_vs_AQ2": true,
+      "bitid_DENSE_AQV33_12_vs_AQ3": true,
+      "bitid_DENSE_AQV33_14_vs_AQ3": true,
+      "pass": true
+    },
+    {
+      "unit": "s2_f0",
+      "bitid_SNN_MEMOV3_12_cold": true,
+      "bitid_SNN_MEMOV3_12_val": true,
+      "bitid_SNN_MEMOV3_14_cold": true,
+      "bitid_SNN_MEMOV3_14_val": true,
+      "bitid_DENSE_AQV32_12_vs_AQ2": true,
+      "bitid_DENSE_AQV32_14_vs_AQ2": true,
+      "bitid_DENSE_AQV33_12_vs_AQ3": true,
+      "bitid_DENSE_AQV33_14_vs_AQ3": true,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

@@ -1,0 +1,76 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (id_ID.UTF-8)
+[2026-10-30 00:33:49] mulai accuracy edge_iiotset | loadavg 1.41 1.46 1.22 2/2114 1257330
+[00:33:51] [s7x-ij-accuracy] guard OK: DESIGN.md sha 27d0e1222c86…, check 60/60 lolos
+[00:33:52] [s7x-ij-accuracy] core 9 | nice 10 | kernel sha 3fc05fd16fa5… | load (1.38037109375, 1.451171875, 1.220703125)
+WARNING:tensorflow:AutoGraph could not transform <bound method SpikingLayer.call of <SpikingLayer object at 0x78eef373a2c0>> and will run it as-is.
+Cause: Unable to locate the source code of <bound method SpikingLayer.call of <SpikingLayer object at 0x78eef373a2c0>>. Note that functions defined in certain environments, like the interactive Python shell, do not expose their source code. If that is the case, you should define them in a .py source file. If you are certain the code is graph-compatible, wrap the call using @tf.autograph.experimental.do_not_convert. Original error: source code not available
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+[00:33:54] [s7x-ij-accuracy] s0_f0: SNN_EXACT 0.9997/0.9954; SNN_RQC 0.9997/0.9957; SNN_RQT 0.9997/0.9955
+[00:33:55] [s7x-ij-accuracy] s0_f1: SNN_EXACT 0.9991/0.9542; SNN_RQC 0.9991/0.9531; SNN_RQT 0.9991/0.9703
+[00:33:56] [s7x-ij-accuracy] s0_f2: SNN_EXACT 0.9998/0.9960; SNN_RQC 0.9998/0.9958; SNN_RQT 0.9998/0.9955
+[00:33:57] [s7x-ij-accuracy] s0_f3: SNN_EXACT 0.9972/0.8580; SNN_RQC 0.9973/0.8580; SNN_RQT 0.9972/0.8565
+[00:33:58] [s7x-ij-accuracy] s0_f4: SNN_EXACT 0.9996/0.9963; SNN_RQC 0.9996/0.9964; SNN_RQT 0.9995/0.9961
+[00:34:00] [s7x-ij-accuracy] s0_f5: SNN_EXACT 0.9807/0.9509; SNN_RQC 0.9806/0.9509; SNN_RQT 0.9807/0.9506
+[00:34:01] [s7x-ij-accuracy] s0_f6: SNN_EXACT 0.9999/0.9977; SNN_RQC 0.9999/0.9976; SNN_RQT 0.9999/0.9971
+[00:34:02] [s7x-ij-accuracy] s0_f7: SNN_EXACT 0.9995/0.9947; SNN_RQC 0.9995/0.9947; SNN_RQT 0.9995/0.9943
+[00:34:03] [s7x-ij-accuracy] s0_f8: SNN_EXACT 0.9998/0.9976; SNN_RQC 0.9998/0.9976; SNN_RQT 0.9998/0.9970
+[00:34:04] [s7x-ij-accuracy] s0_f9: SNN_EXACT 0.9996/0.9964; SNN_RQC 0.9996/0.9964; SNN_RQT 0.9996/0.9957
+[00:34:05] [s7x-ij-accuracy] s1_f0: SNN_EXACT 0.9994/0.9951; SNN_RQC 0.9994/0.9950; SNN_RQT 0.9993/0.9946
+[00:34:06] [s7x-ij-accuracy] s1_f1: SNN_EXACT 0.9996/0.9959; SNN_RQC 0.9996/0.9960; SNN_RQT 0.9995/0.9955
+[00:34:07] [s7x-ij-accuracy] s1_f2: SNN_EXACT 0.9994/0.9941; SNN_RQC 0.9993/0.9939; SNN_RQT 0.9993/0.9933
+[00:34:09] [s7x-ij-accuracy] s1_f3: SNN_EXACT 0.9980/0.9902; SNN_RQC 0.9980/0.9901; SNN_RQT 0.9980/0.9903
+[00:34:10] [s7x-ij-accuracy] s1_f4: SNN_EXACT 0.9996/0.9240; SNN_RQC 0.9996/0.9244; SNN_RQT 0.9995/0.9295
+[00:34:11] [s7x-ij-accuracy] s1_f5: SNN_EXACT 0.9963/0.8748; SNN_RQC 0.9964/0.8734; SNN_RQT 0.9964/0.8736
+[00:34:12] [s7x-ij-accuracy] s1_f6: SNN_EXACT 0.9967/0.9486; SNN_RQC 0.9965/0.9487; SNN_RQT 0.9977/0.9487
+[00:34:13] [s7x-ij-accuracy] s1_f7: SNN_EXACT 0.9999/0.9456; SNN_RQC 0.9999/0.9443; SNN_RQT 0.9999/0.9178
+[00:34:14] [s7x-ij-accuracy] s1_f8: SNN_EXACT 0.9998/0.9951; SNN_RQC 0.9998/0.9958; SNN_RQT 0.9998/0.9941
+[00:34:16] [s7x-ij-accuracy] s1_f9: SNN_EXACT 0.9993/0.9753; SNN_RQC 0.9993/0.9779; SNN_RQT 0.9993/0.9746
+[00:34:17] [s7x-ij-accuracy] s2_f0: SNN_EXACT 0.9991/0.9950; SNN_RQC 0.9991/0.9948; SNN_RQT 0.9990/0.9950
+[00:34:18] [s7x-ij-accuracy] s2_f1: SNN_EXACT 0.9993/0.9951; SNN_RQC 0.9993/0.9950; SNN_RQT 0.9993/0.9945
+[00:34:19] [s7x-ij-accuracy] s2_f2: SNN_EXACT 0.9986/0.9485; SNN_RQC 0.9985/0.9484; SNN_RQT 0.9986/0.9484
+[00:34:20] [s7x-ij-accuracy] s2_f3: SNN_EXACT 1.0000/0.9955; SNN_RQC 1.0000/0.9954; SNN_RQT 1.0000/0.9958
+[00:34:21] [s7x-ij-accuracy] s2_f4: SNN_EXACT 0.9999/0.9963; SNN_RQC 0.9999/0.9964; SNN_RQT 0.9998/0.9961
+[00:34:22] [s7x-ij-accuracy] s2_f5: SNN_EXACT 0.9992/0.9956; SNN_RQC 0.9992/0.9953; SNN_RQT 0.9991/0.9947
+[00:34:23] [s7x-ij-accuracy] s2_f6: SNN_EXACT 0.9998/0.9948; SNN_RQC 0.9998/0.9950; SNN_RQT 0.9998/0.9944
+[00:34:25] [s7x-ij-accuracy] s2_f7: SNN_EXACT 0.9995/0.9947; SNN_RQC 0.9995/0.9944; SNN_RQT 0.9992/0.9947
+[00:34:26] [s7x-ij-accuracy] s2_f8: SNN_EXACT 0.9984/0.9919; SNN_RQC 0.9984/0.9918; SNN_RQT 0.9984/0.9914
+[00:34:27] [s7x-ij-accuracy] s2_f9: SNN_EXACT 0.9999/0.9937; SNN_RQC 0.9999/0.9939; SNN_RQT 0.9999/0.9943
+[00:34:27] [s7x-ij-accuracy] selesai: /home/jupyteruser/nix-ext-backup/0-eksperimen-final/0-snn-ae-revision/13-s7x-ij/results/accuracy/edge_iiotset
+[2026-10-30 00:34:27] mulai accuracy ciciot2023 | loadavg 1.55 1.49 1.24 2/2113 1258468
+[00:34:30] [s7x-ij-accuracy] guard OK: DESIGN.md sha 27d0e1222c86…, check 60/60 lolos
+[00:34:31] [s7x-ij-accuracy] core 9 | nice 10 | kernel sha 3fc05fd16fa5… | load (1.54736328125, 1.49267578125, 1.244140625)
+WARNING:tensorflow:AutoGraph could not transform <bound method SpikingLayer.call of <SpikingLayer object at 0x7bc2b4277250>> and will run it as-is.
+Cause: Unable to locate the source code of <bound method SpikingLayer.call of <SpikingLayer object at 0x7bc2b4277250>>. Note that functions defined in certain environments, like the interactive Python shell, do not expose their source code. If that is the case, you should define them in a .py source file. If you are certain the code is graph-compatible, wrap the call using @tf.autograph.experimental.do_not_convert. Original error: source code not available
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+[00:34:37] [s7x-ij-accuracy] s0_f0: SNN_EXACT 0.9164/0.8538; SNN_RQC 0.9177/0.8012; SNN_RQT 0.9030/0.7550
+[00:34:39] [s7x-ij-accuracy] s0_f1: SNN_EXACT 0.9093/0.8112; SNN_RQC 0.8939/0.7669; SNN_RQT 0.8966/0.6256
+[00:34:42] [s7x-ij-accuracy] s0_f2: SNN_EXACT 0.9438/0.8169; SNN_RQC 0.9503/0.7827; SNN_RQT 0.9536/0.7210
+[00:34:45] [s7x-ij-accuracy] s0_f3: SNN_EXACT 0.8740/0.6650; SNN_RQC 0.8643/0.6696; SNN_RQT 0.8291/0.5916
+[00:34:48] [s7x-ij-accuracy] s0_f4: SNN_EXACT 0.9122/0.6845; SNN_RQC 0.9076/0.6924; SNN_RQT 0.8808/0.6076
+[00:34:51] [s7x-ij-accuracy] s0_f5: SNN_EXACT 0.9377/0.8356; SNN_RQC 0.9249/0.8276; SNN_RQT 0.8965/0.8220
+[00:34:54] [s7x-ij-accuracy] s0_f6: SNN_EXACT 0.8966/0.7008; SNN_RQC 0.8853/0.7239; SNN_RQT 0.8953/0.6625
+[00:34:57] [s7x-ij-accuracy] s0_f7: SNN_EXACT 0.8766/0.7006; SNN_RQC 0.8781/0.6995; SNN_RQT 0.8743/0.7392
+[00:35:00] [s7x-ij-accuracy] s0_f8: SNN_EXACT 0.9183/0.7059; SNN_RQC 0.9143/0.7072; SNN_RQT 0.8983/0.6930
+[00:35:03] [s7x-ij-accuracy] s0_f9: SNN_EXACT 0.9076/0.7824; SNN_RQC 0.8980/0.7343; SNN_RQT 0.8868/0.7435
+[00:35:06] [s7x-ij-accuracy] s1_f0: SNN_EXACT 0.9043/0.6758; SNN_RQC 0.9061/0.6766; SNN_RQT 0.8750/0.5658
+[00:35:09] [s7x-ij-accuracy] s1_f1: SNN_EXACT 0.9159/0.8296; SNN_RQC 0.9177/0.8314; SNN_RQT 0.9119/0.7915
+[00:35:11] [s7x-ij-accuracy] s1_f2: SNN_EXACT 0.8943/0.8099; SNN_RQC 0.8936/0.8107; SNN_RQT 0.8921/0.7538
+[00:35:14] [s7x-ij-accuracy] s1_f3: SNN_EXACT 0.9249/0.7804; SNN_RQC 0.9307/0.7782; SNN_RQT 0.9040/0.7617
+[00:35:17] [s7x-ij-accuracy] s1_f4: SNN_EXACT 0.8764/0.7886; SNN_RQC 0.8537/0.7553; SNN_RQT 0.8198/0.7565
+[00:35:20] [s7x-ij-accuracy] s1_f5: SNN_EXACT 0.9236/0.8560; SNN_RQC 0.8806/0.7718; SNN_RQT 0.8624/0.7927
+[00:35:23] [s7x-ij-accuracy] s1_f6: SNN_EXACT 0.9194/0.8393; SNN_RQC 0.9173/0.8406; SNN_RQT 0.9102/0.7579
+[00:35:26] [s7x-ij-accuracy] s1_f7: SNN_EXACT 0.9349/0.8590; SNN_RQC 0.9298/0.8259; SNN_RQT 0.8926/0.8157
+[00:35:29] [s7x-ij-accuracy] s1_f8: SNN_EXACT 0.8332/0.7913; SNN_RQC 0.8208/0.7784; SNN_RQT 0.8116/0.7758
+[00:35:32] [s7x-ij-accuracy] s1_f9: SNN_EXACT 0.9376/0.7555; SNN_RQC 0.9429/0.7777; SNN_RQT 0.9565/0.6418
+[00:35:35] [s7x-ij-accuracy] s2_f0: SNN_EXACT 0.9037/0.8272; SNN_RQC 0.9106/0.8219; SNN_RQT 0.8659/0.7615
+[00:35:37] [s7x-ij-accuracy] s2_f1: SNN_EXACT 0.9201/0.8236; SNN_RQC 0.9122/0.8215; SNN_RQT 0.9047/0.8174
+[00:35:40] [s7x-ij-accuracy] s2_f2: SNN_EXACT 0.9239/0.8062; SNN_RQC 0.8704/0.6273; SNN_RQT 0.8682/0.6666
+[00:35:43] [s7x-ij-accuracy] s2_f3: SNN_EXACT 0.8289/0.6817; SNN_RQC 0.8371/0.7667; SNN_RQT 0.8186/0.7955
+[00:35:46] [s7x-ij-accuracy] s2_f4: SNN_EXACT 0.9561/0.8373; SNN_RQC 0.9075/0.7837; SNN_RQT 0.9234/0.7606
+[00:35:49] [s7x-ij-accuracy] s2_f5: SNN_EXACT 0.8969/0.7288; SNN_RQC 0.8800/0.7420; SNN_RQT 0.8779/0.6328
+[00:35:52] [s7x-ij-accuracy] s2_f6: SNN_EXACT 0.9148/0.8499; SNN_RQC 0.9136/0.7962; SNN_RQT 0.9055/0.7968
+[00:35:55] [s7x-ij-accuracy] s2_f7: SNN_EXACT 0.9159/0.8352; SNN_RQC 0.9089/0.8128; SNN_RQT 0.8888/0.7328
+[00:35:58] [s7x-ij-accuracy] s2_f8: SNN_EXACT 0.8905/0.7388; SNN_RQC 0.8843/0.7425; SNN_RQT 0.8515/0.6027
+[00:36:01] [s7x-ij-accuracy] s2_f9: SNN_EXACT 0.9081/0.8148; SNN_RQC 0.8872/0.7735; SNN_RQT 0.8633/0.7471
+[00:36:01] [s7x-ij-accuracy] selesai: /home/jupyteruser/nix-ext-backup/0-eksperimen-final/0-snn-ae-revision/13-s7x-ij/results/accuracy/ciciot2023
+[2026-10-30 00:36:01] accuracy selesai

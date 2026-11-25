@@ -1,0 +1,317 @@
+{
+  "design": "DESIGN_STEP8_LIVE_OPT.md",
+  "rules": "prereg/O4_NATIVE_RULES_v1.md (tanpa perubahan)",
+  "G0prime": {
+    "n": 2468434,
+    "per_segment": {
+      "cal17_holdout": {
+        "SNN_AE": true,
+        "Dense_AE": true,
+        "ts": true
+      },
+      "d21_pre0300": {
+        "SNN_AE": true,
+        "Dense_AE": true,
+        "ts": true
+      },
+      "B1": {
+        "SNN_AE": true,
+        "Dense_AE": true,
+        "ts": true
+      },
+      "B2": {
+        "SNN_AE": true,
+        "Dense_AE": true,
+        "ts": true
+      },
+      "A1_background": {
+        "SNN_AE": true,
+        "Dense_AE": true,
+        "ts": true
+      }
+    },
+    "pass": true
+  },
+  "C1_reuse_bitid_calib": true,
+  "C2_prefill_invariant": {
+    "SNN_AE_REUSE": true,
+    "SNN_AE_RQT": true,
+    "Dense_AE_AQ3": true,
+    "Dense_AE_AQ2": true
+  },
+  "build_vs_runtime_agreement": {
+    "SNN_AE_B": {
+      "bit_identical_frac": 0.3260415307842948,
+      "max_abs_diff": 0.5326187610626221
+    },
+    "Dense_AE_B": {
+      "bit_identical_frac": 0.017856260284860766,
+      "max_abs_diff": 0.0029296875
+    }
+  },
+  "logcap": 16,
+  "prefill_stride": 12,
+  "prefill_n": 205703,
+  "models": {
+    "SNN_AE_B": {
+      "threshold_o4": 2.3325732946395874,
+      "threshold_grid": {
+        "p85": 1.6841648995876302,
+        "p87.5": 2.0980786085128784,
+        "p90": 2.3325732946395874,
+        "p92.5": 2.5485973000526423,
+        "p95": 4.718008399009706,
+        "p97.5": 10.396740460395812,
+        "p99": 18.10204521179199,
+        "p99.5": 18.14847470283508
+      },
+      "calibration": {
+        "fpr_pkt_cal": 0.10000024306908753,
+        "nopersist": {
+          "episodes": {
+            "cal17_holdout": 0,
+            "d21_pre0300": 0,
+            "B1": 0,
+            "B2": 0,
+            "A1_background": 0
+          },
+          "episodes_total": 0
+        },
+        "peak_load": 244,
+        "persist": {
+          "episodes": {
+            "cal17_holdout": 0,
+            "d21_pre0300": 0,
+            "B1": 0,
+            "B2": 0,
+            "A1_background": 0
+          },
+          "episodes_total": 0
+        },
+        "peak_margin_vs_256": 0.953125
+      }
+    },
+    "SNN_AE_REUSE": {
+      "threshold_o4": 2.3325732946395874,
+      "threshold_grid": {
+        "p85": 1.6841648995876302,
+        "p87.5": 2.0980786085128784,
+        "p90": 2.3325732946395874,
+        "p92.5": 2.5485973000526423,
+        "p95": 4.718008399009706,
+        "p97.5": 10.396740460395812,
+        "p99": 18.10204521179199,
+        "p99.5": 18.14847470283508
+      },
+      "calibration": {
+        "fpr_pkt_cal": 0.10000024306908753,
+        "nopersist": {
+          "episodes": {
+            "cal17_holdout": 0,
+            "d21_pre0300": 0,
+            "B1": 0,
+            "B2": 0,
+            "A1_background": 0
+          },
+          "episodes_total": 0
+        },
+        "peak_load": 244,
+        "persist": {
+          "episodes": {
+            "cal17_holdout": 0,
+            "d21_pre0300": 0,
+            "B1": 0,
+            "B2": 0,
+            "A1_background": 0
+          },
+          "episodes_total": 0
+        },
+        "peak_margin_vs_256": 0.953125
+      }
+    },
+    "SNN_AE_RQT": {
+      "threshold_o4": 2.4350601196289063,
+      "threshold_grid": {
+        "p85": 1.8901269972324366,
+        "p87.5": 2.2452840507030487,
+        "p90": 2.4350601196289063,
+        "p92.5": 2.635953569412231,
+        "p95": 4.706246066093456,
+        "p97.5": 10.397449922561643,
+        "p99": 18.10204521179199,
+        "p99.5": 18.14847470283508
+      },
+      "calibration": {
+        "fpr_pkt_cal": 0.10000024306908753,
+        "nopersist": {
+          "episodes": {
+            "cal17_holdout": 0,
+            "d21_pre0300": 0,
+            "B1": 0,
+            "B2": 0,
+            "A1_background": 0
+          },
+          "episodes_total": 0
+        },
+        "peak_load": 244,
+        "persist": {
+          "episodes": {
+            "cal17_holdout": 0,
+            "d21_pre0300": 0,
+            "B1": 0,
+            "B2": 0,
+            "A1_background": 0
+          },
+          "episodes_total": 0
+        },
+        "peak_margin_vs_256": 0.953125
+      }
+    },
+    "Dense_AE_B": {
+      "threshold_o4": 22.955576324462896,
+      "threshold_grid": {
+        "p85": 1.5361262500286097,
+        "p87.5": 20.477102994918823,
+        "p90": 22.955576324462896,
+        "p92.5": 23.979011106491086,
+        "p95": 26.024192142486584,
+        "p97.5": 35.024029445648196,
+        "p99": 70.00355293273925,
+        "p99.5": 70.21102912902832
+      },
+      "calibration": {
+        "fpr_pkt_cal": 0.10000024306908753,
+        "nopersist": {
+          "episodes": {
+            "cal17_holdout": 0,
+            "d21_pre0300": 0,
+            "B1": 0,
+            "B2": 0,
+            "A1_background": 0
+          },
+          "episodes_total": 0
+        },
+        "peak_load": 39,
+        "persist": {
+          "episodes": {
+            "cal17_holdout": 0,
+            "d21_pre0300": 0,
+            "B1": 0,
+            "B2": 0,
+            "A1_background": 0
+          },
+          "episodes_total": 0
+        },
+        "peak_margin_vs_256": 0.15234375
+      }
+    },
+    "Dense_AE_AQ3": {
+      "threshold_o4": 27.930431365966804,
+      "threshold_grid": {
+        "p85": 24.169677734375,
+        "p87.5": 24.959062337875366,
+        "p90": 27.930431365966804,
+        "p92.5": 29.8351758480072,
+        "p95": 30.40333757400513,
+        "p97.5": 31.004804611206055,
+        "p99": 63.26934944152832,
+        "p99.5": 63.67641830444336
+      },
+      "calibration": {
+        "fpr_pkt_cal": 0.10000024306908753,
+        "nopersist": {
+          "episodes": {
+            "cal17_holdout": 0,
+            "d21_pre0300": 0,
+            "B1": 0,
+            "B2": 0,
+            "A1_background": 0
+          },
+          "episodes_total": 0
+        },
+        "peak_load": 23,
+        "persist": {
+          "episodes": {
+            "cal17_holdout": 0,
+            "d21_pre0300": 0,
+            "B1": 0,
+            "B2": 0,
+            "A1_background": 0
+          },
+          "episodes_total": 0
+        },
+        "peak_margin_vs_256": 0.08984375
+      }
+    },
+    "Dense_AE_AQ2": {
+      "threshold_o4": 222.87208557128906,
+      "threshold_grid": {
+        "p85": 217.9014221191406,
+        "p87.5": 222.61674308776855,
+        "p90": 222.87208557128906,
+        "p92.5": 223.0637592315674,
+        "p95": 223.53775024414062,
+        "p97.5": 228.7706298828125,
+        "p99": 245.11194366455078,
+        "p99.5": 247.23642990112305
+      },
+      "calibration": {
+        "fpr_pkt_cal": 0.09999943283879577,
+        "nopersist": {
+          "episodes": {
+            "cal17_holdout": 1,
+            "d21_pre0300": 0,
+            "B1": 10,
+            "B2": 4,
+            "A1_background": 1
+          },
+          "episodes_total": 16
+        },
+        "peak_load": 3870,
+        "persist": {
+          "episodes": {
+            "cal17_holdout": 1,
+            "d21_pre0300": 0,
+            "B1": 7,
+            "B2": 2,
+            "A1_background": 1
+          },
+          "episodes_total": 11
+        },
+        "peak_margin_vs_256": 15.1171875
+      }
+    },
+    "_runtime_ref": {
+      "SNN_AE": 2.332579779624939,
+      "Dense_AE": 22.95555610656739
+    }
+  },
+  "libs_sha256": {
+    "s7c": "6ae3976dada98cc8637feac0116b2c3d2b53503db7ebfbffb3008b0a7807e168",
+    "s7i": "b948a30a6ad48ead89bb6d9a9cf2f2a966f00c841669e0da8f946e26382e2e62",
+    "s7j": "ff10c62b1baf065bb9b604851a4af9bb5dac0ccf2584d9739557e5585ac8091a"
+  },
+  "calibration_n": {
+    "cal17_holdout": 165735,
+    "d21_pre0300": 172698,
+    "B1": 887216,
+    "B2": 997488,
+    "A1_background": 245297
+  },
+  "files_read": [
+    "/home/a3m-nix/disertasi-snn/17-benign-capture/benign-20261017-210001/fields.tsv",
+    "/home/a3m-nix/disertasi-snn/17-benign-capture/benign-20261021-210001/fields.tsv",
+    "/home/a3m-nix/disertasi-snn/17-benign-capture/benign-20261023-210001/fields.tsv",
+    "/home/a3m-nix/disertasi-snn/17-benign-capture/benign-20261024-055801/fields.tsv",
+    "/home/a3m-nix/disertasi-snn/17-benign-capture/benign-20261023-154816/fields.tsv"
+  ],
+  "o4_ref": "/home/a3m-nix/disertasi-snn/23-e37-native/results/o4-native-20261026-180510",
+  "script_sha256": "3d62666121eb3f87883e8c4993cc7eabc6200f2f9aab9e4e9cc6a8f18656a9fd",
+  "opt_kernels_sha256": "6d8f1dc455e81287cfb13538618a334f10da101b4624f8d17c6550c215bf94f1",
+  "outputs_sha256": {
+    "opt_aux.npz": "1ffbcc25432461dd0be16094081df7da8a00487f76879a77c9f8572e549b04b4",
+    "prefill_calib.npz": "fe6d080112ab7c5fce6d682f81b21454eea5bfc5df30b1dc9b16d3ec417ea484",
+    "calib_scores_step8.npz": "7b4ba57503c9ed56d711a1ed978818629c5e719b67b70d5e43aba4e2bda1ce8f"
+  },
+  "elapsed_s": 170.9
+}

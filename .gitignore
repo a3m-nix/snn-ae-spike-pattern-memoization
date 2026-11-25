@@ -1,0 +1,14 @@
+# Exclude manuscript drafts, figure generation, and manuscript-audit files
+00-manuscript/
+04-figures/
+05-co-advisor-revision/
+06-submission-figures/
+CLAIM_INDEX.md
+VERIFICATION_FINDINGS.md
+01-results/dense_xai_server/
+
+# Python / OS artifacts
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store

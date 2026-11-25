@@ -1,0 +1,34 @@
+{
+  "power_valid": true,
+  "passes": 2809,
+  "elapsed_s": 30.007250170000134,
+  "fnirsi_rate_hz": 99.84253748766565,
+  "n_per_pass": 33746,
+  "latency_us_per_sample_median": 0.31426083091061563,
+  "idle_measurement": {
+    "pbus_idle_w": 4.219979810713232,
+    "target_temp_c": 57.65,
+    "temp_at_idle_c": 57.3,
+    "cooldown_wait_s": 10.000612020492554,
+    "cooldown_timed_out": false
+  },
+  "round": 3,
+  "dataset": "edge_iiotset",
+  "unit": "s1_f0",
+  "variant": "SNN_RQT_16",
+  "order": "capture",
+  "system": {
+    "time": "2026-10-30T14:11:44.414069",
+    "machine": "aarch64",
+    "loadavg": "0.87 0.74 0.68 1/448 5198",
+    "governor": "ondemand",
+    "freq_mhz": 2400.0,
+    "temp_c": 62.8
+  },
+  "pbus_idle_w": 4.219979810713232,
+  "pbus_inference_w": 6.077962241074066,
+  "p_delta_w": 1.8579824303608339,
+  "board_energy_delta_mj_per_sample": 0.0005880215650784826,
+  "board_energy_active_mj_per_sample": 0.0019235773229514346,
+  "throughput_sps": 3159718.1816160963
+}

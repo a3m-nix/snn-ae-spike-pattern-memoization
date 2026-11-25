@@ -1,0 +1,3 @@
+c7f1a2a7abbb15d6b160952cf333a0a5decbccd81973ae7391fdb08ee7c6b491  s7x_ij.py
+3fc05fd16fa5c0ace81c8ccd463adad1c0b288fef9ce81b8f7446c84af830407  s7x_ij_kernels_x86.c
+436cffa8f43128fbc6d4675288085d8d9ddca4a88c503f91a365fd4bc79cdb27  s7k_server.py

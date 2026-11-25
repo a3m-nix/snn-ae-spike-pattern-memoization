@@ -1,0 +1,95 @@
+{
+  "models": [
+    "SNN_AE",
+    "Dense_AE",
+    "SNN_AE_B",
+    "SNN_AE_REUSE",
+    "SNN_AE_RQT",
+    "Dense_AE_B",
+    "Dense_AE_AQ3",
+    "Dense_AE_AQ2"
+  ],
+  "thresholds": {
+    "SNN_AE": 2.332579779624939,
+    "Dense_AE": 22.95555610656739,
+    "SNN_AE_B": 2.3325732946395874,
+    "SNN_AE_REUSE": 2.3325732946395874,
+    "SNN_AE_RQT": 2.4350601196289063,
+    "Dense_AE_B": 22.955576324462896,
+    "Dense_AE_AQ3": 27.930431365966804,
+    "Dense_AE_AQ2": 222.87208557128906
+  },
+  "batches": 6979,
+  "packets": 286787,
+  "timing": {
+    "us_per_packet_total": {
+      "SNN_AE": 3.596138998629645,
+      "Dense_AE": 2.416631353582973,
+      "SNN_AE_B": 3.3749162026172734,
+      "SNN_AE_REUSE": 2.260564143423516,
+      "SNN_AE_RQT": 2.488441421682294,
+      "Dense_AE_B": 2.3150111302116207,
+      "Dense_AE_AQ3": 2.280342986258094,
+      "Dense_AE_AQ2": 2.2959541227461497
+    },
+    "scaler_us_per_packet_total": 7.248281480680784,
+    "hit_rate": {
+      "SNN_AE_REUSE": 0.9366882041375655,
+      "SNN_AE_RQT": 0.9601655584109461,
+      "Dense_AE_AQ3": 0.9971825780108582,
+      "Dense_AE_AQ2": 0.9984274043105161
+    }
+  },
+  "dropped_batches": 0,
+  "dropped_packets": 0,
+  "scaler_parity_rows": 286787,
+  "scaler_parity_bad_rows": 0,
+  "events": {
+    "SNN_AE": 14,
+    "Dense_AE": 9,
+    "SNN_AE_B": 14,
+    "SNN_AE_REUSE": 14,
+    "SNN_AE_RQT": 14,
+    "Dense_AE_B": 9,
+    "Dense_AE_AQ3": 9,
+    "Dense_AE_AQ2": 0
+  },
+  "closes": {
+    "SNN_AE": 14,
+    "Dense_AE": 9,
+    "SNN_AE_B": 14,
+    "SNN_AE_REUSE": 14,
+    "SNN_AE_RQT": 14,
+    "Dense_AE_B": 9,
+    "Dense_AE_AQ3": 9,
+    "Dense_AE_AQ2": 0
+  },
+  "shadow_lag_s": {
+    "n": 286787,
+    "p50": 0.6413421630859375,
+    "p99": 0.9556509828567538,
+    "max": 1.1849095821380615,
+    "frac_gt_2s": 0.0
+  },
+  "errors": [],
+  "disabled": false,
+  "anomaly_rate": {
+    "SNN_AE": 0.3453538688992179,
+    "Dense_AE": 0.29790750626771784,
+    "SNN_AE_B": 0.3453538688992179,
+    "SNN_AE_REUSE": 0.3453538688992179,
+    "SNN_AE_RQT": 0.3447192515699805,
+    "Dense_AE_B": 0.29790750626771784,
+    "Dense_AE_AQ3": 0.2989535787884388,
+    "Dense_AE_AQ2": 0.09895148664339737
+  },
+  "transport": {
+    "mode": "process",
+    "sent_batches": 6979,
+    "sent_packets": 286787,
+    "dropped_batches": 0,
+    "dropped_packets": 0,
+    "child_returncode": 0,
+    "errors": []
+  }
+}

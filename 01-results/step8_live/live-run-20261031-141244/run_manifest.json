@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.1",
+  "study_id": "EDGE_LIVE_INTERFACE_V1_1",
+  "created_at_epoch": 1793435512.9591162,
+  "files": {
+    "FINAL_SUMMARY.json": {
+      "bytes": 4264,
+      "sha256": "ed91b9d43cfd5c7e5339e6805bcc175065121985b93c287f866468af254186ab"
+    },
+    "incident_evidence_publish_records.json": {
+      "bytes": 6794,
+      "sha256": "009abab951c39aae422e2e680af81177df3fac923ccbfafdad7782c2eff52002"
+    },
+    "incident_lifecycle.json": {
+      "bytes": 7331,
+      "sha256": "b665d8cccb4026a10b22742cb6c79b97850915737c9179f9be08292ed5f7cf19"
+    },
+    "live_capture.pcapng": {
+      "bytes": 143332488,
+      "sha256": "162a420ebb169fc23bb01146cfc024fefe5e241858ed929ca51db7afe49927e5"
+    },
+    "packet_rate_per_second.csv": {
+      "bytes": 628548,
+      "sha256": "b9825a249e8e27006c3ed1293bfa8e8d4b7c0d6569bbde73fa2aa6b406e360eb"
+    },
+    "packet_rate_per_second.json": {
+      "bytes": 1853678,
+      "sha256": "6eea2588211e304ad38a3a0178fa8adfade6b5408abfb5c87887fe598011f351"
+    },
+    "packet_runtime_records.csv": {
+      "bytes": 69980909,
+      "sha256": "0dfe2dd3f99aa85cf937cf99a535969a64d47ebfec198a9c1008c3a717d017b0"
+    },
+    "runtime_summary.json": {
+      "bytes": 1734,
+      "sha256": "d4566efa47f8162c80ff70a437cf41acb0b95dd345a9c4c2261c7f095a6fe050"
+    },
+    "shadow_events.csv": {
+      "bytes": 12084,
+      "sha256": "c6180090b0fb48e0aca674da47603340330f4c84dab9aeadf0eb229ab11ea087"
+    },
+    "shadow_packets.npz": {
+      "bytes": 8018194,
+      "sha256": "9e48a0e5faabdb954f40fabd70f2cfad16da31a6c0825db0760b708aebb8d870"
+    },
+    "shadow_summary.json": {
+      "bytes": 2339,
+      "sha256": "42a9b1802d805af8806636b607fa7d1c93b416e90a4b1da72bb054c6e76cc38d"
+    },
+    "shadow_timing.npz": {
+      "bytes": 299877,
+      "sha256": "0c20a1b2cffa4445af9ea03126878d0cbc832a2ad329eebf932ed53a70007a7e"
+    },
+    "streaming_publish_records.json": {
+      "bytes": 14656,
+      "sha256": "fec012beac2a9304e94f37d2c7de0f1bec112c300d8cecaaf0f99010a6caf948"
+    },
+    "telemetry_publish_records.json": {
+      "bytes": 2382834,
+      "sha256": "acdaa9071c4dbbe1f743f59faf5536b46648583e2ccddc131164cc84fcdebca9"
+    }
+  }
+}

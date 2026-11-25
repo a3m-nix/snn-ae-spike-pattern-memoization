@@ -1,0 +1,12 @@
+{
+ "n": 1500000,
+ "n_expected": 1500000,
+ "features_equal": true,
+ "y_hash_equal": true,
+ "kernel_sha256": "5f550527f1fe4146a198f7db23536e6f0186dbb73d94e11afb7782445bcf9255",
+ "s7c_sha256": "b82d5c0e6ef91265782b90122dfb8eafcdbec24ce5783cd0fbc3bdb09af1d2ca",
+ "script_sha256": "855ce3215b08ae5c1df718678e88e912170ac1f93e807c35df17e46384c53031",
+ "nice": 10,
+ "core": 10,
+ "repeats": 15
+}

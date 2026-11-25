@@ -1,0 +1,1 @@
+(The S7x-ij scripts are located in 01-results/s7x_ij/: s7x_ij.py, analyze_s7x_ij.py, s7x_ij_kernels_x86.c, s7x_ij_ref.c, run_s7x_ij.sh)

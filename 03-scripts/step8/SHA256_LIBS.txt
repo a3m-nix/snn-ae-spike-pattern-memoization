@@ -1,0 +1,3 @@
+6ae3976dada98cc8637feac0116b2c3d2b53503db7ebfbffb3008b0a7807e168  s7c_native_copy.so
+b948a30a6ad48ead89bb6d9a9cf2f2a966f00c841669e0da8f946e26382e2e62  s7i_kernels.so
+ff10c62b1baf065bb9b604851a4af9bb5dac0ccf2584d9739557e5585ac8091a  s7j_kernels.so

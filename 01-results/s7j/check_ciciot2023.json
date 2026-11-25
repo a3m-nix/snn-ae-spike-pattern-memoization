@@ -1,0 +1,38 @@
+{
+  "dataset": "ciciot2023",
+  "system": {
+    "time": "2026-10-30T00:20:38.933816",
+    "machine": "aarch64",
+    "loadavg": "1.30 1.23 1.10 1/451 53082",
+    "governor": "ondemand",
+    "freq_mhz": 2400.0,
+    "temp_c": 63.9
+  },
+  "rows": [
+    {
+      "unit": "s0_f0",
+      "RQC_invariant_cap_and_prefill": true,
+      "RQC_finite": true,
+      "RQT_invariant_cap_and_prefill": true,
+      "RQT_finite": true,
+      "pass": true
+    },
+    {
+      "unit": "s1_f0",
+      "RQC_invariant_cap_and_prefill": true,
+      "RQC_finite": true,
+      "RQT_invariant_cap_and_prefill": true,
+      "RQT_finite": true,
+      "pass": true
+    },
+    {
+      "unit": "s2_f0",
+      "RQC_invariant_cap_and_prefill": true,
+      "RQC_finite": true,
+      "RQT_invariant_cap_and_prefill": true,
+      "RQT_finite": true,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

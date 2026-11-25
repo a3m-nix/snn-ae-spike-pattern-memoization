@@ -1,0 +1,144 @@
+{
+  "T0": {
+    "files": [
+      "IDENTICAL canonical/_common.py",
+      "IDENTICAL canonical/_snn_custom.py",
+      "IDENTICAL canonical/edge_stream_master.py",
+      "DIFFERENT canonical/native_shadow.py",
+      "IDENTICAL canonical/native_shadow_ipc.py",
+      "DIFFERENT canonical/native_shadow_proc.py",
+      "IDENTICAL canonical/periodic_telemetry_v1.py",
+      "IDENTICAL canonical/unified_edge_cloud_adapter_v1.py",
+      "NEW canonical/opt_kernels.py",
+      "IDENTICAL scripts/live_interface_master_v23.py -> v24.py"
+    ],
+    "config_diff_keys": [
+      "output_dir"
+    ],
+    "shadow_cfg_diff_keys": [
+      "models",
+      "note",
+      "opt"
+    ]
+  },
+  "stream": {
+    "path": "/home/a3m-nix/disertasi-snn/17-benign-capture/benign-20261028-202940/fields.tsv",
+    "packets": 1586383,
+    "sha256": "e6ce00febbb03ca42e6e3758ca032a28200c429baa76a5869e51afbf02293160"
+  },
+  "T1a": {
+    "models": [
+      "SNN_AE",
+      "Dense_AE",
+      "SNN_AE_B",
+      "SNN_AE_REUSE",
+      "SNN_AE_RQT",
+      "Dense_AE_B",
+      "Dense_AE_AQ3",
+      "Dense_AE_AQ2"
+    ],
+    "reuse_bitid_frac": 1.0,
+    "events_identical": true,
+    "pass": true
+  },
+  "descriptive": {
+    "events": {
+      "SNN_AE": 16,
+      "Dense_AE": 11,
+      "SNN_AE_B": 16,
+      "SNN_AE_REUSE": 16,
+      "SNN_AE_RQT": 17,
+      "Dense_AE_B": 11,
+      "Dense_AE_AQ3": 11,
+      "Dense_AE_AQ2": 2
+    },
+    "closes": {
+      "SNN_AE": 16,
+      "Dense_AE": 11,
+      "SNN_AE_B": 16,
+      "SNN_AE_REUSE": 16,
+      "SNN_AE_RQT": 17,
+      "Dense_AE_B": 11,
+      "Dense_AE_AQ3": 11,
+      "Dense_AE_AQ2": 2
+    },
+    "timing": {
+      "us_per_packet_total": {
+        "SNN_AE": 1.941369507867898,
+        "Dense_AE": 1.0739553745848258,
+        "SNN_AE_B": 1.8230027754962075,
+        "SNN_AE_REUSE": 0.6245517248987161,
+        "SNN_AE_RQT": 0.6397136271631756,
+        "Dense_AE_B": 0.9963989099731906,
+        "Dense_AE_AQ3": 0.6320810264608232,
+        "Dense_AE_AQ2": 0.635628024253916
+      },
+      "scaler_us_per_packet_total": 3.9220335789024467,
+      "hit_rate": {
+        "SNN_AE_REUSE": 0.9516964062272477,
+        "SNN_AE_RQT": 0.9666700916487381,
+        "Dense_AE_AQ3": 0.9989019045211655,
+        "Dense_AE_AQ2": 0.9993998927119113
+      }
+    },
+    "anomaly_rate": {
+      "SNN_AE": 0.20595972095011103,
+      "Dense_AE": 0.23292357520220527,
+      "SNN_AE_B": 0.20595972095011103,
+      "SNN_AE_REUSE": 0.20595972095011103,
+      "SNN_AE_RQT": 0.20064952788828422,
+      "Dense_AE_B": 0.23292357520220527,
+      "Dense_AE_AQ3": 0.22616606456322338,
+      "Dense_AE_AQ2": 0.1164094673228344
+    },
+    "elapsed_s": 95.7,
+    "batches": 10024
+  },
+  "T1b": {
+    "SNN_AE": {
+      "events_v23": 16,
+      "events_v24": 16,
+      "identical": true,
+      "scores_bitid": true
+    },
+    "Dense_AE": {
+      "events_v23": 11,
+      "events_v24": 11,
+      "identical": true,
+      "scores_bitid": true
+    },
+    "pass": true
+  },
+  "T1c": {
+    "SNN_AE_B": true,
+    "SNN_AE_REUSE": true,
+    "SNN_AE_RQT": true,
+    "Dense_AE_B": true,
+    "Dense_AE_AQ3": true,
+    "Dense_AE_AQ2": true,
+    "pass": true
+  },
+  "T1d": {
+    "identical": true,
+    "transport": {
+      "dropped": 0,
+      "rc": 0,
+      "errors": []
+    },
+    "events_proc": {
+      "SNN_AE": 16,
+      "Dense_AE": 11,
+      "SNN_AE_B": 16,
+      "SNN_AE_REUSE": 16,
+      "SNN_AE_RQT": 17,
+      "Dense_AE_B": 11,
+      "Dense_AE_AQ3": 11,
+      "Dense_AE_AQ2": 2
+    },
+    "pass": true
+  },
+  "pass": true,
+  "elapsed_s": 289.8,
+  "script_sha256": "8a5a717d14fe55aee0bed50c43d4aac788151c9bb05ff7ed66feedd4b616ed53",
+  "config_sha256": "03c29e0c7801346838a73f82699622d86017e2e4e77d9a9c0a9b21e8a235201f"
+}

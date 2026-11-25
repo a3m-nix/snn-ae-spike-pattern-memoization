@@ -1,0 +1,81 @@
+s7j/s7j_kernels.c: FAILED open or read
+s7j/s7j_rpi.py: FAILED open or read
+s7i/s7i_kernels.c: FAILED open or read
+s7i/s7i_rpi.py: FAILED open or read
+s7g/s7g_kernels.c: FAILED open or read
+s7g/s7g_rpi.py: FAILED open or read
+s7f/s7f_rpi.py: FAILED open or read
+s7f/s7f_memo.c: FAILED open or read
+s7f/s7c_native_copy.c: FAILED open or read
+0-revision-results-v2/s7x_ij/s7x_ij.py: FAILED open or read
+0-revision-results-v2/s7x_ij/s7x_ij_kernels_x86.c: FAILED open or read
+STATUS check:edge_iiotset 2026-11-09 09:24:30
+[2026-11-09 09:24:35] [S7f] [S7k] edge_iiotset fase=check unit=['s0_f0', 's1_f0', 's2_f0'] core=3 {'time': '2026-11-09T09:24:35.723109', 'machine': 'aarch64', 'loadavg': '0.49 0.24 0.14 2/406 5482', 'governor': 'ondemand', 'freq_mhz': 2400.0, 'temp_c': 60.05}
+[2026-11-09 09:24:37] [S7f] [S7k] CHECK edge_iiotset s0_f0: pass=True | SNN_MEMOV3_16_hits_kernel=27485 SNN_MEMOV3_16_hits_sim=27485 SNN_RQC_16_hits_kernel=29396 SNN_RQC_16_hits_sim=29396 SNN_RQT_16_hits_kernel=30899 SNN_RQT_16_hits_sim=30899
+[2026-11-09 09:24:39] [S7f] [S7k] CHECK edge_iiotset s1_f0: pass=True | SNN_MEMOV3_16_hits_kernel=27844 SNN_MEMOV3_16_hits_sim=27844 SNN_RQC_16_hits_kernel=30032 SNN_RQC_16_hits_sim=30032 SNN_RQT_16_hits_kernel=31225 SNN_RQT_16_hits_sim=31225
+[2026-11-09 09:24:41] [S7f] [S7k] CHECK edge_iiotset s2_f0: pass=True | SNN_MEMOV3_16_hits_kernel=28744 SNN_MEMOV3_16_hits_sim=28744 SNN_RQC_16_hits_kernel=30262 SNN_RQC_16_hits_sim=30262 SNN_RQT_16_hits_kernel=31430 SNN_RQT_16_hits_sim=31430
+[2026-11-09 09:24:41] [S7f] [S7k] fase check selesai
+STATUS check:ciciot2023 2026-11-09 09:24:41
+[2026-11-09 09:24:47] [S7f] [S7k] ciciot2023 fase=check unit=['s0_f0', 's1_f0', 's2_f0'] core=3 {'time': '2026-11-09T09:24:47.300755', 'machine': 'aarch64', 'loadavg': '0.57 0.27 0.15 3/412 5526', 'governor': 'ondemand', 'freq_mhz': 2400.0, 'temp_c': 61.7}
+[2026-11-09 09:24:53] [S7f] [S7k] CHECK ciciot2023 s0_f0: pass=True | SNN_MEMOV3_16_hits_kernel=113317 SNN_MEMOV3_16_hits_sim=113317 SNN_RQC_16_hits_kernel=118325 SNN_RQC_16_hits_sim=118325 SNN_RQT_16_hits_kernel=120022 SNN_RQT_16_hits_sim=120022
+[2026-11-09 09:25:00] [S7f] [S7k] CHECK ciciot2023 s1_f0: pass=True | SNN_MEMOV3_16_hits_kernel=112946 SNN_MEMOV3_16_hits_sim=112946 SNN_RQC_16_hits_kernel=117989 SNN_RQC_16_hits_sim=117989 SNN_RQT_16_hits_kernel=119213 SNN_RQT_16_hits_sim=119213
+[2026-11-09 09:25:07] [S7f] [S7k] CHECK ciciot2023 s2_f0: pass=True | SNN_MEMOV3_16_hits_kernel=110349 SNN_MEMOV3_16_hits_sim=110349 SNN_RQC_16_hits_kernel=115661 SNN_RQC_16_hits_sim=115661 SNN_RQT_16_hits_kernel=119689 SNN_RQT_16_hits_sim=119689
+[2026-11-09 09:25:07] [S7f] [S7k] fase check selesai
+STATUS k2:edge_iiotset 2026-11-09 09:25:07
+[2026-11-09 09:25:12] [S7f] [S7k] edge_iiotset fase=k2 unit=['s0_f0', 's1_f0', 's2_f0'] core=3 {'time': '2026-11-09T09:25:12.962428', 'machine': 'aarch64', 'loadavg': '0.72 0.33 0.17 4/403 5572', 'governor': 'ondemand', 'freq_mhz': 2400.0, 'temp_c': 62.25}
+[2026-11-09 09:25:14] [S7f] [S7k] K2 edge_iiotset s0_f0: exact unik 9709 seen 0.378 | count unik 7179 seen 0.427 | tri unik 4184 seen 0.470
+[2026-11-09 09:25:15] [S7f] [S7k] K2 kelas ddos-http-flood-attacks (n=4250): DENSE_ZS=730ns SNN_MEMOV3_16=378ns SNN_RQT_16=307ns DENSE_AQV33_16=493ns
+[2026-11-09 09:25:15] [S7f] [S7k] K2 kelas ddos-icmp-flood-attacks (n=4250): DENSE_ZS=561ns SNN_MEMOV3_16=220ns SNN_RQT_16=218ns DENSE_AQV33_16=261ns
+[2026-11-09 09:25:16] [S7f] [S7k] K2 kelas ddos-tcp-syn-flood-attacks (n=4250): DENSE_ZS=700ns SNN_MEMOV3_16=281ns SNN_RQT_16=258ns DENSE_AQV33_16=282ns
+[2026-11-09 09:25:17] [S7f] [S7k] K2 kelas ddos-udp-flood-attacks (n=4250): DENSE_ZS=679ns SNN_MEMOV3_16=228ns SNN_RQT_16=221ns DENSE_AQV33_16=275ns
+[2026-11-09 09:25:18] [S7f] [S7k] K2 kelas normal (n=16747): DENSE_ZS=708ns SNN_MEMOV3_16=379ns SNN_RQT_16=286ns DENSE_AQV33_16=368ns
+[2026-11-09 09:25:20] [S7f] [S7k] K2 edge_iiotset s1_f0: exact unik 8975 seen 0.508 | count unik 6503 seen 0.552 | tri unik 3814 seen 0.586
+[2026-11-09 09:25:21] [S7f] [S7k] K2 edge_iiotset s2_f0: exact unik 8330 seen 0.460 | count unik 6104 seen 0.497 | tri unik 3457 seen 0.549
+[2026-11-09 09:25:22] [S7f] [S7k] fase k2 selesai
+STATUS k2:ciciot2023 2026-11-09 09:25:22
+[2026-11-09 09:25:27] [S7f] [S7k] ciciot2023 fase=k2 unit=['s0_f0', 's1_f0', 's2_f0'] core=3 {'time': '2026-11-09T09:25:27.876684', 'machine': 'aarch64', 'loadavg': '0.85 0.38 0.19 3/402 5618', 'governor': 'ondemand', 'freq_mhz': 2400.0, 'temp_c': 62.25}
+[2026-11-09 09:25:33] [S7f] [S7k] K2 ciciot2023 s0_f0: exact unik 17097 seen 0.256 | count unik 10407 seen 0.300 | tri unik 8391 seen 0.320
+[2026-11-09 09:25:34] [S7f] [S7k] K2 kelas DDoS-ACK_Fragmentation (n=4250): DENSE_ZS=596ns SNN_MEMOV3_16=228ns SNN_RQT_16=236ns DENSE_AQV33_16=292ns
+[2026-11-09 09:25:35] [S7f] [S7k] K2 kelas DDoS-HTTP_Flood- (n=4250): DENSE_ZS=683ns SNN_MEMOV3_16=372ns SNN_RQT_16=311ns DENSE_AQV33_16=393ns
+[2026-11-09 09:25:36] [S7f] [S7k] K2 kelas DDoS-ICMP_Flood (n=4250): DENSE_ZS=609ns SNN_MEMOV3_16=226ns SNN_RQT_16=216ns DENSE_AQV33_16=261ns
+[2026-11-09 09:25:37] [S7f] [S7k] K2 kelas DDoS-ICMP_Fragmentation (n=4250): DENSE_ZS=601ns SNN_MEMOV3_16=230ns SNN_RQT_16=228ns DENSE_AQV33_16=276ns
+[2026-11-09 09:25:38] [S7f] [S7k] K2 kelas DDoS-PSHACK_Flood (n=4250): DENSE_ZS=692ns SNN_MEMOV3_16=405ns SNN_RQT_16=331ns DENSE_AQV33_16=536ns
+[2026-11-09 09:25:39] [S7f] [S7k] K2 kelas DDoS-RSTFINFlood (n=4250): DENSE_ZS=668ns SNN_MEMOV3_16=309ns SNN_RQT_16=259ns DENSE_AQV33_16=550ns
+[2026-11-09 09:25:40] [S7f] [S7k] K2 kelas DDoS-SYN_Flood (n=4250): DENSE_ZS=693ns SNN_MEMOV3_16=314ns SNN_RQT_16=266ns DENSE_AQV33_16=473ns
+[2026-11-09 09:25:41] [S7f] [S7k] K2 kelas DDoS-SlowLoris (n=4250): DENSE_ZS=693ns SNN_MEMOV3_16=407ns SNN_RQT_16=337ns DENSE_AQV33_16=431ns
+[2026-11-09 09:25:42] [S7f] [S7k] K2 kelas DDoS-SynonymousIP_Flood (n=4250): DENSE_ZS=682ns SNN_MEMOV3_16=300ns SNN_RQT_16=252ns DENSE_AQV33_16=467ns
+[2026-11-09 09:25:43] [S7f] [S7k] K2 kelas DDoS-TCP_Flood (n=4250): DENSE_ZS=721ns SNN_MEMOV3_16=374ns SNN_RQT_16=309ns DENSE_AQV33_16=646ns
+[2026-11-09 09:25:43] [S7f] [S7k] K2 kelas DDoS-UDP_Flood (n=4250): DENSE_ZS=625ns SNN_MEMOV3_16=311ns SNN_RQT_16=262ns DENSE_AQV33_16=339ns
+[2026-11-09 09:25:44] [S7f] [S7k] K2 kelas DDoS-UDP_Fragmentation (n=4250): DENSE_ZS=585ns SNN_MEMOV3_16=227ns SNN_RQT_16=225ns DENSE_AQV33_16=272ns
+[2026-11-09 09:25:45] [S7f] [S7k] K2 kelas Mirai-greeth_flood (n=4250): DENSE_ZS=646ns SNN_MEMOV3_16=413ns SNN_RQT_16=285ns DENSE_AQV33_16=302ns
+[2026-11-09 09:25:46] [S7f] [S7k] K2 kelas Mirai-greip_flood (n=4250): DENSE_ZS=645ns SNN_MEMOV3_16=424ns SNN_RQT_16=284ns DENSE_AQV33_16=308ns
+[2026-11-09 09:25:47] [S7f] [S7k] K2 kelas Mirai-udpplain (n=4250): DENSE_ZS=625ns SNN_MEMOV3_16=239ns SNN_RQT_16=231ns DENSE_AQV33_16=274ns
+[2026-11-09 09:25:53] [S7f] [S7k] K2 kelas normal (n=64114): DENSE_ZS=656ns SNN_MEMOV3_16=239ns SNN_RQT_16=227ns DENSE_AQV33_16=291ns
+[2026-11-09 09:25:58] [S7f] [S7k] K2 ciciot2023 s1_f0: exact unik 16472 seen 0.274 | count unik 10323 seen 0.320 | tri unik 8138 seen 0.350
+[2026-11-09 09:26:04] [S7f] [S7k] K2 ciciot2023 s2_f0: exact unik 19348 seen 0.319 | count unik 12995 seen 0.365 | tri unik 8653 seen 0.384
+[2026-11-09 09:26:04] [S7f] [S7k] fase k2 selesai
+STATUS k3:edge_iiotset 2026-11-09 09:26:04
+[2026-11-09 09:26:10] [S7f] [S7k] edge_iiotset fase=k3 unit=['s0_f0', 's1_f0', 's2_f0'] core=3 {'time': '2026-11-09T09:26:10.103942', 'machine': 'aarch64', 'loadavg': '0.92 0.46 0.23 3/407 5725', 'governor': 'ondemand', 'freq_mhz': 2400.0, 'temp_c': 63.9}
+[2026-11-09 09:26:12] [S7f] [S7k] K3 edge_iiotset s0_f0: DENSE=1971cyc DENSE_ZS=1636cyc SNN_COUNT=3741cyc DENSE_AQV32_16=672cyc DENSE_AQV33_16=803cyc SNN_MEMOV3_16=766cyc SNN_RQC_16=695cyc SNN_RQT_16=615cyc
+[2026-11-09 09:26:14] [S7f] [S7k] K3 edge_iiotset s1_f0: DENSE=1938cyc DENSE_ZS=1635cyc SNN_COUNT=3850cyc DENSE_AQV32_16=653cyc DENSE_AQV33_16=763cyc SNN_MEMOV3_16=750cyc SNN_RQC_16=663cyc SNN_RQT_16=609cyc
+[2026-11-09 09:26:16] [S7f] [S7k] K3 edge_iiotset s2_f0: DENSE=1979cyc DENSE_ZS=1672cyc SNN_COUNT=3668cyc DENSE_AQV32_16=657cyc DENSE_AQV33_16=747cyc SNN_MEMOV3_16=713cyc SNN_RQC_16=660cyc SNN_RQT_16=597cyc
+[2026-11-09 09:26:16] [S7f] [S7k] fase k3 selesai
+STATUS k3:ciciot2023 2026-11-09 09:26:16
+[2026-11-09 09:26:22] [S7f] [S7k] ciciot2023 fase=k3 unit=['s0_f0', 's1_f0', 's2_f0'] core=3 {'time': '2026-11-09T09:26:22.494584', 'machine': 'aarch64', 'loadavg': '1.08 0.52 0.25 3/404 5768', 'governor': 'ondemand', 'freq_mhz': 2400.0, 'temp_c': 63.35}
+[2026-11-09 09:26:30] [S7f] [S7k] K3 ciciot2023 s0_f0: DENSE=2004cyc DENSE_ZS=1551cyc SNN_COUNT=3232cyc DENSE_AQV32_16=676cyc DENSE_AQV33_16=780cyc SNN_MEMOV3_16=631cyc SNN_RQC_16=584cyc SNN_RQT_16=563cyc
+[2026-11-09 09:26:37] [S7f] [S7k] K3 ciciot2023 s1_f0: DENSE=2007cyc DENSE_ZS=1532cyc SNN_COUNT=3292cyc DENSE_AQV32_16=662cyc DENSE_AQV33_16=759cyc SNN_MEMOV3_16=631cyc SNN_RQC_16=584cyc SNN_RQT_16=563cyc
+[2026-11-09 09:26:45] [S7f] [S7k] K3 ciciot2023 s2_f0: DENSE=1997cyc DENSE_ZS=1552cyc SNN_COUNT=3369cyc DENSE_AQV32_16=667cyc DENSE_AQV33_16=792cyc SNN_MEMOV3_16=675cyc SNN_RQC_16=624cyc SNN_RQT_16=573cyc
+[2026-11-09 09:26:45] [S7f] [S7k] fase k3 selesai
+STATUS k4:edge_iiotset 2026-11-09 09:26:45
+[2026-11-09 09:26:51] [S7f] [S7k] edge_iiotset fase=k4 unit=['s0_f0', 's1_f0', 's2_f0'] core=3 {'time': '2026-11-09T09:26:51.401454', 'machine': 'aarch64', 'loadavg': '1.04 0.57 0.28 3/405 5818', 'governor': 'ondemand', 'freq_mhz': 2400.0, 'temp_c': 63.35}
+[2026-11-09 09:27:00] [S7f] [S7k] K4 edge_iiotset s0_f0: SNN_MEMOV3_12=0.503/0.680 SNN_MEMOV3_14=0.475/0.771 SNN_MEMOV3_16=0.471/0.814 SNN_RQC_12=0.459/0.758 SNN_RQC_14=0.431/0.840 SNN_RQC_16=0.428/0.871 SNN_RQT_12=0.399/0.857 SNN_RQT_14=0.384/0.902 SNN_RQT_16=0.383/0.916 DENSE_AQV32_12=0.422/0.934 DENSE_AQV32_14=0.414/0.957 DENSE_AQV32_16=0.414/0.963 DENSE_AQV33_12=0.521/0.774 DENSE_AQV33_14=0.494/0.846 DENSE_AQV33_16=0.496/0.872
+[2026-11-09 09:27:05] [S7f] [S7k] K4 edge_iiotset s1_f0: SNN_MEMOV3_12=0.497/0.693 SNN_MEMOV3_14=0.465/0.783 SNN_MEMOV3_16=0.461/0.825 SNN_RQC_12=0.440/0.792 SNN_RQC_14=0.414/0.864 SNN_RQC_16=0.414/0.890 SNN_RQT_12=0.394/0.866 SNN_RQT_14=0.376/0.912 SNN_RQT_16=0.375/0.925 DENSE_AQV32_12=0.403/0.964 DENSE_AQV32_14=0.399/0.977 DENSE_AQV32_16=0.400/0.978 DENSE_AQV33_12=0.496/0.817 DENSE_AQV33_14=0.471/0.884 DENSE_AQV33_16=0.472/0.903
+[2026-11-09 09:27:09] [S7f] [S7k] K4 edge_iiotset s2_f0: SNN_MEMOV3_12=0.471/0.734 SNN_MEMOV3_14=0.447/0.818 SNN_MEMOV3_16=0.442/0.852 SNN_RQC_12=0.427/0.810 SNN_RQC_14=0.408/0.874 SNN_RQC_16=0.406/0.897 SNN_RQT_12=0.377/0.886 SNN_RQT_14=0.367/0.921 SNN_RQT_16=0.365/0.931 DENSE_AQV32_12=0.405/0.958 DENSE_AQV32_14=0.401/0.971 DENSE_AQV32_16=0.402/0.973 DENSE_AQV33_12=0.481/0.839 DENSE_AQV33_14=0.465/0.894 DENSE_AQV33_16=0.466/0.913
+[2026-11-09 09:27:09] [S7f] [S7k] fase k4 selesai
+STATUS k4:ciciot2023 2026-11-09 09:27:09
+[2026-11-09 09:27:15] [S7f] [S7k] ciciot2023 fase=k4 unit=['s0_f0', 's1_f0', 's2_f0'] core=3 {'time': '2026-11-09T09:27:15.295175', 'machine': 'aarch64', 'loadavg': '0.97 0.59 0.29 3/405 5859', 'governor': 'ondemand', 'freq_mhz': 2400.0, 'temp_c': 65.55}
+[2026-11-09 09:27:38] [S7f] [S7k] K4 ciciot2023 s0_f0: SNN_MEMOV3_12=0.406/0.834 SNN_MEMOV3_14=0.399/0.873 SNN_MEMOV3_16=0.405/0.886 SNN_RQC_12=0.375/0.893 SNN_RQC_14=0.371/0.918 SNN_RQC_16=0.374/0.925 SNN_RQT_12=0.364/0.911 SNN_RQT_14=0.361/0.932 SNN_RQT_16=0.363/0.939 DENSE_AQV32_12=0.436/0.933 DENSE_AQV32_14=0.433/0.947 DENSE_AQV32_16=0.436/0.952 DENSE_AQV33_12=0.500/0.807 DENSE_AQV33_14=0.494/0.848 DENSE_AQV33_16=0.501/0.865
+[2026-11-09 09:27:52] [S7f] [S7k] K4 ciciot2023 s1_f0: SNN_MEMOV3_12=0.409/0.839 SNN_MEMOV3_14=0.404/0.872 SNN_MEMOV3_16=0.412/0.883 SNN_RQC_12=0.382/0.890 SNN_RQC_14=0.379/0.915 SNN_RQC_16=0.382/0.923 SNN_RQT_12=0.371/0.908 SNN_RQT_14=0.368/0.928 SNN_RQT_16=0.371/0.932 DENSE_AQV32_12=0.434/0.948 DENSE_AQV32_14=0.431/0.959 DENSE_AQV32_16=0.432/0.964 DENSE_AQV33_12=0.492/0.832 DENSE_AQV33_14=0.486/0.868 DENSE_AQV33_16=0.496/0.880
+[2026-11-09 09:28:07] [S7f] [S7k] K4 ciciot2023 s2_f0: SNN_MEMOV3_12=0.427/0.817 SNN_MEMOV3_14=0.424/0.851 SNN_MEMOV3_16=0.435/0.863 SNN_RQC_12=0.395/0.875 SNN_RQC_14=0.394/0.896 SNN_RQC_16=0.400/0.905 SNN_RQT_12=0.369/0.913 SNN_RQT_14=0.367/0.931 SNN_RQT_16=0.370/0.936 DENSE_AQV32_12=0.434/0.940 DENSE_AQV32_14=0.430/0.954 DENSE_AQV32_16=0.432/0.959 DENSE_AQV33_12=0.512/0.796 DENSE_AQV33_14=0.503/0.841 DENSE_AQV33_16=0.513/0.856
+[2026-11-09 09:28:07] [S7f] [S7k] fase k4 selesai
+STATUS done 2026-11-09 09:28:07

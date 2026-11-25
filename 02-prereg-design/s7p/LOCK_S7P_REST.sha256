@@ -1,0 +1,10 @@
+adb97dd95d32cfbe14cc45662a96dd9a7d9154cbbacea6df90b288664606a771  ADDENDUM_S7P_01.md
+553dedd1cbf0c4300b67658ab2e045f27090753d541781c419e76d90148b6c3a  run_s7p_rest.sh
+5ecda6f1bf5087af84183676baeec8df26d9c63db490a62df9bd3d006d119663  start_s7p_rest.sh
+a5c584bd206b6999f93b0184a850d06416b7ceb4d138b12ce5e15f8a6a4fd510  preflight_fnirsi.sh
+9dddf77bd4b79a8f89e2d52310f895446fb08ecd19e2e712ab80c4d15769d1e4  ../s7d_pi/s7h_rpi.py
+5b268cd0087fc20c2447cb72d1950af5ec365ada1c8b2f11583cd5ad2065a5a4  ../s7g/s7g_more_rpi.py
+6779c6dd735efc1b69e2f8303e22488e1d302ee8dcec79b7322befa5607fb1e6  ../s7g/s7g_rpi.py
+6bbddd44d4e54a5c4c233c248a34f18e3ca0bde12ead40df3f45848c00ad1f29  ../s7g/s7g_kernels.c
+7f9ac53618ebd3a05df5d17093bb04d2d433ab7eebad2cefbfc4d7b69f897df5  ../fnirsi_logger.py
+# dikunci 2026-10-30T15:55:44+07:00 sebelum lanjutan S7p

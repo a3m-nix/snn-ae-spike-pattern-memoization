@@ -1,0 +1,36 @@
+[18:04:00] [s7t edge_iiotset] start {'kernel_sha256': '5f550527f1fe4146a198f7db23536e6f0186dbb73d94e11afb7782445bcf9255', 's7c_sha256': 'b82d5c0e6ef91265782b90122dfb8eafcdbec24ce5783cd0fbc3bdb09af1d2ca', 'script_sha256': '855ce3215b08ae5c1df718678e88e912170ac1f93e807c35df17e46384c53031', 'nice': 10, 'core': 10, 'repeats': 15} | load (3.4189453125, 3.60546875, 3.2958984375)
+[18:04:13] [s7t edge_iiotset] G0 data: {'n': 400000, 'n_expected': 400000, 'features_equal': True, 'y_hash_equal': True}
+WARNING:tensorflow:AutoGraph could not transform <bound method SpikingLayer.call of <SpikingLayer object at 0x72b6ed04cf10>> and will run it as-is.
+Cause: Unable to locate the source code of <bound method SpikingLayer.call of <SpikingLayer object at 0x72b6ed04cf10>>. Note that functions defined in certain environments, like the interactive Python shell, do not expose their source code. If that is the case, you should define them in a .py source file. If you are certain the code is graph-compatible, wrap the call using @tf.autograph.experimental.do_not_convert. Original error: source code not available
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+[18:04:20] [s7t edge_iiotset] s0_f0: dAUC max 6.92e-08 | G2 ok | T2 memo x0.292 hit 0.984 | T3 memo x0.384 hit 0.854 | T5 memo x0.530 hit 0.650 | T7 memo x0.606 hit 0.561 | load 3.68
+[18:04:28] [s7t edge_iiotset] s0_f1: dAUC max 2.42e-08 | G2 ok | T2 memo x0.289 hit 0.974 | T3 memo x0.348 hit 0.838 | T5 memo x0.474 hit 0.653 | T7 memo x0.502 hit 0.635 | load 3.50
+[18:04:35] [s7t edge_iiotset] s0_f2: dAUC max 2.08e-08 | G2 ok | T2 memo x0.319 hit 0.984 | T3 memo x0.401 hit 0.869 | T5 memo x0.544 hit 0.671 | T7 memo x0.567 hit 0.625 | load 3.94
+[18:04:42] [s7t edge_iiotset] s0_f3: dAUC max 6.57e-08 | G2 ok | T2 memo x0.287 hit 0.985 | T3 memo x0.364 hit 0.854 | T5 memo x0.463 hit 0.657 | T7 memo x0.518 hit 0.619 | load 3.94
+[18:04:49] [s7t edge_iiotset] s0_f4: dAUC max 4.64e-07 | G2 ok | T2 memo x0.323 hit 0.971 | T3 memo x0.398 hit 0.848 | T5 memo x0.527 hit 0.652 | T7 memo x0.543 hit 0.618 | load 3.87
+[18:04:56] [s7t edge_iiotset] s0_f5: dAUC max 6.92e-09 | G2 ok | T2 memo x0.279 hit 0.983 | T3 memo x0.360 hit 0.846 | T5 memo x0.499 hit 0.638 | T7 memo x0.552 hit 0.599 | load 3.96
+[18:05:03] [s7t edge_iiotset] s0_f6: dAUC max 1.56e-07 | G2 ok | T2 memo x0.337 hit 0.989 | T3 memo x0.449 hit 0.826 | T5 memo x0.595 hit 0.640 | T7 memo x0.585 hit 0.664 | load 3.88
+[18:05:10] [s7t edge_iiotset] s0_f7: dAUC max 4.50e-08 | G2 ok | T2 memo x0.298 hit 0.981 | T3 memo x0.380 hit 0.836 | T5 memo x0.490 hit 0.642 | T7 memo x0.528 hit 0.622 | load 3.65
+[18:05:17] [s7t edge_iiotset] s0_f8: dAUC max 2.08e-08 | G2 ok | T2 memo x0.324 hit 0.983 | T3 memo x0.395 hit 0.880 | T5 memo x0.549 hit 0.650 | T7 memo x0.563 hit 0.626 | load 3.86
+[18:05:24] [s7t edge_iiotset] s0_f9: dAUC max 3.70e-07 | G2 ok | T2 memo x0.307 hit 0.981 | T3 memo x0.380 hit 0.869 | T5 memo x0.527 hit 0.693 | T7 memo x0.599 hit 0.596 | load 3.95
+[18:05:32] [s7t edge_iiotset] s1_f0: dAUC max 2.42e-08 | G2 ok | T2 memo x0.292 hit 0.985 | T3 memo x0.390 hit 0.866 | T5 memo x0.507 hit 0.652 | T7 memo x0.582 hit 0.589 | load 3.72
+[18:05:38] [s7t edge_iiotset] s1_f1: dAUC max 3.11e-08 | G2 ok | T2 memo x0.285 hit 0.990 | T3 memo x0.345 hit 0.863 | T5 memo x0.490 hit 0.631 | T7 memo x0.495 hit 0.639 | load 3.70
+[18:05:45] [s7t edge_iiotset] s1_f2: dAUC max 1.04e-08 | G2 ok | T2 memo x0.275 hit 0.979 | T3 memo x0.340 hit 0.876 | T5 memo x0.473 hit 0.655 | T7 memo x0.516 hit 0.644 | load 4.04
+[18:05:52] [s7t edge_iiotset] s1_f3: dAUC max 3.46e-08 | G2 ok | T2 memo x0.300 hit 0.980 | T3 memo x0.401 hit 0.856 | T5 memo x0.531 hit 0.669 | T7 memo x0.549 hit 0.611 | load 3.73
+[18:05:59] [s7t edge_iiotset] s1_f4: dAUC max 7.30e-07 | G2 ok | T2 memo x0.273 hit 0.982 | T3 memo x0.360 hit 0.876 | T5 memo x0.476 hit 0.657 | T7 memo x0.534 hit 0.571 | load 3.91
+[18:06:06] [s7t edge_iiotset] s1_f5: dAUC max 3.32e-07 | G2 ok | T2 memo x0.292 hit 0.985 | T3 memo x0.347 hit 0.864 | T5 memo x0.473 hit 0.683 | T7 memo x0.514 hit 0.653 | load 4.40
+[18:06:13] [s7t edge_iiotset] s1_f6: dAUC max 1.38e-07 | G2 ok | T2 memo x0.278 hit 0.980 | T3 memo x0.338 hit 0.882 | T5 memo x0.474 hit 0.659 | T7 memo x0.526 hit 0.598 | load 4.47
+[18:06:20] [s7t edge_iiotset] s1_f7: dAUC max 5.54e-08 | G2 ok | T2 memo x0.281 hit 0.984 | T3 memo x0.346 hit 0.854 | T5 memo x0.481 hit 0.670 | T7 memo x0.495 hit 0.641 | load 4.19
+[18:06:27] [s7t edge_iiotset] s1_f8: dAUC max 4.84e-08 | G2 ok | T2 memo x0.272 hit 0.986 | T3 memo x0.355 hit 0.836 | T5 memo x0.479 hit 0.671 | T7 memo x0.519 hit 0.649 | load 4.40
+[18:06:34] [s7t edge_iiotset] s1_f9: dAUC max 6.23e-08 | G2 ok | T2 memo x0.294 hit 0.990 | T3 memo x0.393 hit 0.821 | T5 memo x0.483 hit 0.664 | T7 memo x0.516 hit 0.630 | load 4.29
+[18:06:41] [s7t edge_iiotset] s2_f0: dAUC max 7.61e-08 | G2 ok | T2 memo x0.336 hit 0.981 | T3 memo x0.416 hit 0.833 | T5 memo x0.560 hit 0.616 | T7 memo x0.609 hit 0.604 | load 4.02
+[18:06:48] [s7t edge_iiotset] s2_f1: dAUC max 5.33e-07 | G2 ok | T2 memo x0.279 hit 0.986 | T3 memo x0.359 hit 0.847 | T5 memo x0.489 hit 0.651 | T7 memo x0.528 hit 0.638 | load 4.33
+[18:06:55] [s7t edge_iiotset] s2_f2: dAUC max 4.15e-08 | G2 ok | T2 memo x0.260 hit 0.978 | T3 memo x0.343 hit 0.856 | T5 memo x0.464 hit 0.634 | T7 memo x0.457 hit 0.648 | load 4.15
+[18:07:02] [s7t edge_iiotset] s2_f3: dAUC max 8.30e-08 | G2 ok | T2 memo x0.291 hit 0.982 | T3 memo x0.341 hit 0.865 | T5 memo x0.466 hit 0.664 | T7 memo x0.491 hit 0.644 | load 3.98
+[18:07:09] [s7t edge_iiotset] s2_f4: dAUC max 8.65e-08 | G2 ok | T2 memo x0.293 hit 0.990 | T3 memo x0.377 hit 0.846 | T5 memo x0.493 hit 0.647 | T7 memo x0.517 hit 0.617 | load 4.06
+[18:07:16] [s7t edge_iiotset] s2_f5: dAUC max 2.08e-08 | G2 ok | T2 memo x0.304 hit 0.975 | T3 memo x0.378 hit 0.869 | T5 memo x0.484 hit 0.671 | T7 memo x0.537 hit 0.634 | load 4.21
+[18:07:23] [s7t edge_iiotset] s2_f6: dAUC max 1.70e-07 | G2 ok | T2 memo x0.282 hit 0.986 | T3 memo x0.378 hit 0.848 | T5 memo x0.492 hit 0.681 | T7 memo x0.529 hit 0.628 | load 4.11
+[18:07:30] [s7t edge_iiotset] s2_f7: dAUC max 4.15e-08 | G2 ok | T2 memo x0.310 hit 0.976 | T3 memo x0.393 hit 0.822 | T5 memo x0.517 hit 0.609 | T7 memo x0.551 hit 0.590 | load 4.26
+[18:07:38] [s7t edge_iiotset] s2_f8: dAUC max 6.92e-08 | G2 ok | T2 memo x0.276 hit 0.982 | T3 memo x0.353 hit 0.868 | T5 memo x0.491 hit 0.646 | T7 memo x0.518 hit 0.600 | load 4.35
+[18:07:45] [s7t edge_iiotset] s2_f9: dAUC max 2.42e-08 | G2 ok | T2 memo x0.262 hit 0.982 | T3 memo x0.357 hit 0.847 | T5 memo x0.456 hit 0.682 | T7 memo x0.460 hit 0.666 | load 4.08
+[18:07:45] [s7t edge_iiotset] done: /home/jupyteruser/nix-ext-backup/0-eksperimen-final/0-snn-ae-revision/15-s7t/results/edge_iiotset

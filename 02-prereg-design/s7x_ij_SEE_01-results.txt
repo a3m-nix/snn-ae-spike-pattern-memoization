@@ -1,0 +1,1 @@
+(The S7x-ij design is located in 01-results/s7x_ij/DESIGN.md alongside logs/design_sha256.txt)

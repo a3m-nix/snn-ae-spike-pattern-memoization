@@ -1,0 +1,136 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (id_ID.UTF-8)
+[2026-10-30 00:36:01] mulai timing edge_iiotset | loadavg 1.69 1.56 1.29 3/2102 1260922
+[00:36:04] [s7x-ij-timing] guard OK: DESIGN.md sha 27d0e1222c86…, check 60/60 lolos
+[00:36:05] [s7x-ij-timing] core 9 | nice 10 | kernel sha 3fc05fd16fa5… | load (1.689453125, 1.55859375, 1.29248046875)
+WARNING:tensorflow:AutoGraph could not transform <bound method SpikingLayer.call of <SpikingLayer object at 0x74f7c518f4c0>> and will run it as-is.
+Cause: Unable to locate the source code of <bound method SpikingLayer.call of <SpikingLayer object at 0x74f7c518f4c0>>. Note that functions defined in certain environments, like the interactive Python shell, do not expose their source code. If that is the case, you should define them in a .py source file. If you are certain the code is graph-compatible, wrap the call using @tf.autograph.experimental.do_not_convert. Original error: source code not available
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+[00:36:10] [s7x-ij-timing] s0_f0 capture: DENSE_ZS=595 ns | DENSE_AQV32_16 x0.400 | DENSE_AQV33_16 x0.430 | SNN_MEMOV3_16 x0.444 | SNN_RQC_16 x0.420 | SNN_RQT_16 x0.395 | load 1.71
+[00:36:13] [s7x-ij-timing] s0_f0 random: DENSE_ZS=631 ns | DENSE_AQV32_16 x0.386 | DENSE_AQV33_16 x0.416 | SNN_MEMOV3_16 x0.433 | SNN_RQC_16 x0.409 | SNN_RQT_16 x0.383 | load 1.74
+[00:36:18] [s7x-ij-timing] s0_f1 capture: DENSE_ZS=568 ns | DENSE_AQV32_16 x0.416 | DENSE_AQV33_16 x0.437 | SNN_MEMOV3_16 x0.446 | SNN_RQC_16 x0.415 | SNN_RQT_16 x0.390 | load 1.76
+[00:36:21] [s7x-ij-timing] s0_f1 random: DENSE_ZS=613 ns | DENSE_AQV32_16 x0.392 | DENSE_AQV33_16 x0.416 | SNN_MEMOV3_16 x0.427 | SNN_RQC_16 x0.398 | SNN_RQT_16 x0.373 | load 1.76
+[00:36:25] [s7x-ij-timing] s0_f2 capture: DENSE_ZS=588 ns | DENSE_AQV32_16 x0.401 | DENSE_AQV33_16 x0.416 | SNN_MEMOV3_16 x0.436 | SNN_RQC_16 x0.415 | SNN_RQT_16 x0.395 | load 1.78
+[00:36:28] [s7x-ij-timing] s0_f2 random: DENSE_ZS=619 ns | DENSE_AQV32_16 x0.387 | DENSE_AQV33_16 x0.406 | SNN_MEMOV3_16 x0.428 | SNN_RQC_16 x0.405 | SNN_RQT_16 x0.385 | load 1.72
+[00:36:33] [s7x-ij-timing] s0_f3 capture: DENSE_ZS=621 ns | DENSE_AQV32_16 x0.381 | DENSE_AQV33_16 x0.403 | SNN_MEMOV3_16 x0.403 | SNN_RQC_16 x0.378 | SNN_RQT_16 x0.352 | load 1.66
+[00:36:36] [s7x-ij-timing] s0_f3 random: DENSE_ZS=665 ns | DENSE_AQV32_16 x0.364 | DENSE_AQV33_16 x0.389 | SNN_MEMOV3_16 x0.390 | SNN_RQC_16 x0.363 | SNN_RQT_16 x0.338 | load 1.61
+[00:36:41] [s7x-ij-timing] s0_f4 capture: DENSE_ZS=696 ns | DENSE_AQV32_16 x0.396 | DENSE_AQV33_16 x0.416 | SNN_MEMOV3_16 x0.357 | SNN_RQC_16 x0.333 | SNN_RQT_16 x0.313 | load 1.61
+[00:36:44] [s7x-ij-timing] s0_f4 random: DENSE_ZS=717 ns | DENSE_AQV32_16 x0.391 | DENSE_AQV33_16 x0.416 | SNN_MEMOV3_16 x0.360 | SNN_RQC_16 x0.335 | SNN_RQT_16 x0.311 | load 1.64
+[00:36:49] [s7x-ij-timing] s0_f5 capture: DENSE_ZS=675 ns | DENSE_AQV32_16 x0.411 | DENSE_AQV33_16 x0.429 | SNN_MEMOV3_16 x0.400 | SNN_RQC_16 x0.379 | SNN_RQT_16 x0.347 | load 1.59
+[00:36:53] [s7x-ij-timing] s0_f5 random: DENSE_ZS=704 ns | DENSE_AQV32_16 x0.399 | DENSE_AQV33_16 x0.425 | SNN_MEMOV3_16 x0.395 | SNN_RQC_16 x0.375 | SNN_RQT_16 x0.343 | load 1.54
+[00:36:57] [s7x-ij-timing] s0_f6 capture: DENSE_ZS=580 ns | DENSE_AQV32_16 x0.412 | DENSE_AQV33_16 x0.436 | SNN_MEMOV3_16 x0.440 | SNN_RQC_16 x0.419 | SNN_RQT_16 x0.402 | load 1.58
+[00:37:00] [s7x-ij-timing] s0_f6 random: DENSE_ZS=629 ns | DENSE_AQV32_16 x0.388 | DENSE_AQV33_16 x0.413 | SNN_MEMOV3_16 x0.420 | SNN_RQC_16 x0.398 | SNN_RQT_16 x0.381 | load 1.58
+[00:37:05] [s7x-ij-timing] s0_f7 capture: DENSE_ZS=722 ns | DENSE_AQV32_16 x0.378 | DENSE_AQV33_16 x0.398 | SNN_MEMOV3_16 x0.375 | SNN_RQC_16 x0.357 | SNN_RQT_16 x0.341 | load 1.61
+[00:37:09] [s7x-ij-timing] s0_f7 random: DENSE_ZS=740 ns | DENSE_AQV32_16 x0.375 | DENSE_AQV33_16 x0.400 | SNN_MEMOV3_16 x0.377 | SNN_RQC_16 x0.360 | SNN_RQT_16 x0.343 | load 1.72
+[00:37:13] [s7x-ij-timing] s0_f8 capture: DENSE_ZS=618 ns | DENSE_AQV32_16 x0.385 | DENSE_AQV33_16 x0.401 | SNN_MEMOV3_16 x0.410 | SNN_RQC_16 x0.381 | SNN_RQT_16 x0.357 | load 1.66
+[00:37:16] [s7x-ij-timing] s0_f8 random: DENSE_ZS=642 ns | DENSE_AQV32_16 x0.377 | DENSE_AQV33_16 x0.395 | SNN_MEMOV3_16 x0.404 | SNN_RQC_16 x0.378 | SNN_RQT_16 x0.353 | load 1.61
+[00:37:20] [s7x-ij-timing] s0_f9 capture: DENSE_ZS=652 ns | DENSE_AQV32_16 x0.423 | DENSE_AQV33_16 x0.448 | SNN_MEMOV3_16 x0.391 | SNN_RQC_16 x0.373 | SNN_RQT_16 x0.351 | load 1.61
+[00:37:24] [s7x-ij-timing] s0_f9 random: DENSE_ZS=684 ns | DENSE_AQV32_16 x0.412 | DENSE_AQV33_16 x0.438 | SNN_MEMOV3_16 x0.384 | SNN_RQC_16 x0.366 | SNN_RQT_16 x0.342 | load 1.56
+[00:37:28] [s7x-ij-timing] s1_f0 capture: DENSE_ZS=580 ns | DENSE_AQV32_16 x0.402 | DENSE_AQV33_16 x0.425 | SNN_MEMOV3_16 x0.446 | SNN_RQC_16 x0.416 | SNN_RQT_16 x0.394 | load 1.52
+[00:37:32] [s7x-ij-timing] s1_f0 random: DENSE_ZS=627 ns | DENSE_AQV32_16 x0.377 | DENSE_AQV33_16 x0.403 | SNN_MEMOV3_16 x0.424 | SNN_RQC_16 x0.396 | SNN_RQT_16 x0.377 | load 1.55
+[00:37:36] [s7x-ij-timing] s1_f1 capture: DENSE_ZS=634 ns | DENSE_AQV32_16 x0.369 | DENSE_AQV33_16 x0.376 | SNN_MEMOV3_16 x0.404 | SNN_RQC_16 x0.383 | SNN_RQT_16 x0.360 | load 1.55
+[00:37:39] [s7x-ij-timing] s1_f1 random: DENSE_ZS=685 ns | DENSE_AQV32_16 x0.347 | DENSE_AQV33_16 x0.357 | SNN_MEMOV3_16 x0.384 | SNN_RQC_16 x0.362 | SNN_RQT_16 x0.340 | load 1.75
+[00:37:43] [s7x-ij-timing] s1_f2 capture: DENSE_ZS=646 ns | DENSE_AQV32_16 x0.369 | DENSE_AQV33_16 x0.397 | SNN_MEMOV3_16 x0.400 | SNN_RQC_16 x0.380 | SNN_RQT_16 x0.361 | load 1.69
+[00:37:47] [s7x-ij-timing] s1_f2 random: DENSE_ZS=692 ns | DENSE_AQV32_16 x0.352 | DENSE_AQV33_16 x0.383 | SNN_MEMOV3_16 x0.385 | SNN_RQC_16 x0.365 | SNN_RQT_16 x0.348 | load 1.63
+[00:37:51] [s7x-ij-timing] s1_f3 capture: DENSE_ZS=696 ns | DENSE_AQV32_16 x0.397 | DENSE_AQV33_16 x0.420 | SNN_MEMOV3_16 x0.372 | SNN_RQC_16 x0.356 | SNN_RQT_16 x0.331 | load 1.66
+[00:37:55] [s7x-ij-timing] s1_f3 random: DENSE_ZS=736 ns | DENSE_AQV32_16 x0.382 | DENSE_AQV33_16 x0.410 | SNN_MEMOV3_16 x0.362 | SNN_RQC_16 x0.346 | SNN_RQT_16 x0.320 | load 1.66
+[00:37:59] [s7x-ij-timing] s1_f4 capture: DENSE_ZS=608 ns | DENSE_AQV32_16 x0.387 | DENSE_AQV33_16 x0.407 | SNN_MEMOV3_16 x0.429 | SNN_RQC_16 x0.406 | SNN_RQT_16 x0.383 | load 1.69
+[00:38:03] [s7x-ij-timing] s1_f4 random: DENSE_ZS=643 ns | DENSE_AQV32_16 x0.372 | DENSE_AQV33_16 x0.399 | SNN_MEMOV3_16 x0.420 | SNN_RQC_16 x0.394 | SNN_RQT_16 x0.371 | load 1.72
+[00:38:07] [s7x-ij-timing] s1_f5 capture: DENSE_ZS=657 ns | DENSE_AQV32_16 x0.422 | DENSE_AQV33_16 x0.443 | SNN_MEMOV3_16 x0.372 | SNN_RQC_16 x0.357 | SNN_RQT_16 x0.343 | load 1.66
+[00:38:11] [s7x-ij-timing] s1_f5 random: DENSE_ZS=678 ns | DENSE_AQV32_16 x0.415 | DENSE_AQV33_16 x0.443 | SNN_MEMOV3_16 x0.372 | SNN_RQC_16 x0.357 | SNN_RQT_16 x0.341 | load 1.66
+[00:38:15] [s7x-ij-timing] s1_f6 capture: DENSE_ZS=598 ns | DENSE_AQV32_16 x0.404 | DENSE_AQV33_16 x0.425 | SNN_MEMOV3_16 x0.449 | SNN_RQC_16 x0.425 | SNN_RQT_16 x0.398 | load 1.61
+[00:38:19] [s7x-ij-timing] s1_f6 random: DENSE_ZS=638 ns | DENSE_AQV32_16 x0.387 | DENSE_AQV33_16 x0.412 | SNN_MEMOV3_16 x0.438 | SNN_RQC_16 x0.413 | SNN_RQT_16 x0.387 | load 1.72
+[00:38:23] [s7x-ij-timing] s1_f7 capture: DENSE_ZS=645 ns | DENSE_AQV32_16 x0.422 | DENSE_AQV33_16 x0.438 | SNN_MEMOV3_16 x0.403 | SNN_RQC_16 x0.380 | SNN_RQT_16 x0.354 | load 1.74
+[00:38:27] [s7x-ij-timing] s1_f7 random: DENSE_ZS=665 ns | DENSE_AQV32_16 x0.416 | DENSE_AQV33_16 x0.437 | SNN_MEMOV3_16 x0.405 | SNN_RQC_16 x0.380 | SNN_RQT_16 x0.352 | load 1.76
+[00:38:31] [s7x-ij-timing] s1_f8 capture: DENSE_ZS=600 ns | DENSE_AQV32_16 x0.413 | DENSE_AQV33_16 x0.441 | SNN_MEMOV3_16 x0.419 | SNN_RQC_16 x0.390 | SNN_RQT_16 x0.368 | load 1.86
+[00:38:34] [s7x-ij-timing] s1_f8 random: DENSE_ZS=628 ns | DENSE_AQV32_16 x0.401 | DENSE_AQV33_16 x0.431 | SNN_MEMOV3_16 x0.411 | SNN_RQC_16 x0.382 | SNN_RQT_16 x0.360 | load 1.86
+[00:38:39] [s7x-ij-timing] s1_f9 capture: DENSE_ZS=603 ns | DENSE_AQV32_16 x0.392 | DENSE_AQV33_16 x0.413 | SNN_MEMOV3_16 x0.412 | SNN_RQC_16 x0.388 | SNN_RQT_16 x0.358 | load 1.79
+[00:38:42] [s7x-ij-timing] s1_f9 random: DENSE_ZS=635 ns | DENSE_AQV32_16 x0.380 | DENSE_AQV33_16 x0.402 | SNN_MEMOV3_16 x0.404 | SNN_RQC_16 x0.377 | SNN_RQT_16 x0.348 | load 1.81
+[00:38:46] [s7x-ij-timing] s2_f0 capture: DENSE_ZS=700 ns | DENSE_AQV32_16 x0.355 | DENSE_AQV33_16 x0.400 | SNN_MEMOV3_16 x0.360 | SNN_RQC_16 x0.341 | SNN_RQT_16 x0.323 | load 1.74
+[00:38:50] [s7x-ij-timing] s2_f0 random: DENSE_ZS=732 ns | DENSE_AQV32_16 x0.346 | DENSE_AQV33_16 x0.392 | SNN_MEMOV3_16 x0.352 | SNN_RQC_16 x0.332 | SNN_RQT_16 x0.317 | load 1.74
+[00:38:54] [s7x-ij-timing] s2_f1 capture: DENSE_ZS=668 ns | DENSE_AQV32_16 x0.412 | DENSE_AQV33_16 x0.429 | SNN_MEMOV3_16 x0.383 | SNN_RQC_16 x0.362 | SNN_RQT_16 x0.341 | load 1.76
+[00:38:58] [s7x-ij-timing] s2_f1 random: DENSE_ZS=699 ns | DENSE_AQV32_16 x0.398 | DENSE_AQV33_16 x0.421 | SNN_MEMOV3_16 x0.375 | SNN_RQC_16 x0.355 | SNN_RQT_16 x0.332 | load 1.70
+[00:39:03] [s7x-ij-timing] s2_f2 capture: DENSE_ZS=706 ns | DENSE_AQV32_16 x0.394 | DENSE_AQV33_16 x0.416 | SNN_MEMOV3_16 x0.363 | SNN_RQC_16 x0.342 | SNN_RQT_16 x0.322 | load 1.73
+[00:39:06] [s7x-ij-timing] s2_f2 random: DENSE_ZS=749 ns | DENSE_AQV32_16 x0.379 | DENSE_AQV33_16 x0.406 | SNN_MEMOV3_16 x0.354 | SNN_RQC_16 x0.333 | SNN_RQT_16 x0.315 | load 1.75
+[00:39:11] [s7x-ij-timing] s2_f3 capture: DENSE_ZS=725 ns | DENSE_AQV32_16 x0.380 | DENSE_AQV33_16 x0.397 | SNN_MEMOV3_16 x0.358 | SNN_RQC_16 x0.334 | SNN_RQT_16 x0.313 | load 1.75
+[00:39:15] [s7x-ij-timing] s2_f3 random: DENSE_ZS=754 ns | DENSE_AQV32_16 x0.371 | DENSE_AQV33_16 x0.392 | SNN_MEMOV3_16 x0.355 | SNN_RQC_16 x0.332 | SNN_RQT_16 x0.310 | load 1.69
+[00:39:19] [s7x-ij-timing] s2_f4 capture: DENSE_ZS=577 ns | DENSE_AQV32_16 x0.413 | DENSE_AQV33_16 x0.433 | SNN_MEMOV3_16 x0.447 | SNN_RQC_16 x0.425 | SNN_RQT_16 x0.402 | load 1.87
+[00:39:22] [s7x-ij-timing] s2_f4 random: DENSE_ZS=620 ns | DENSE_AQV32_16 x0.391 | DENSE_AQV33_16 x0.413 | SNN_MEMOV3_16 x0.430 | SNN_RQC_16 x0.407 | SNN_RQT_16 x0.383 | load 1.80
+[00:39:26] [s7x-ij-timing] s2_f5 capture: DENSE_ZS=595 ns | DENSE_AQV32_16 x0.396 | DENSE_AQV33_16 x0.416 | SNN_MEMOV3_16 x0.427 | SNN_RQC_16 x0.396 | SNN_RQT_16 x0.369 | load 1.74
+[00:39:30] [s7x-ij-timing] s2_f5 random: DENSE_ZS=639 ns | DENSE_AQV32_16 x0.377 | DENSE_AQV33_16 x0.399 | SNN_MEMOV3_16 x0.411 | SNN_RQC_16 x0.380 | SNN_RQT_16 x0.352 | load 1.74
+[00:39:34] [s7x-ij-timing] s2_f6 capture: DENSE_ZS=608 ns | DENSE_AQV32_16 x0.392 | DENSE_AQV33_16 x0.418 | SNN_MEMOV3_16 x0.440 | SNN_RQC_16 x0.420 | SNN_RQT_16 x0.394 | load 1.68
+[00:39:37] [s7x-ij-timing] s2_f6 random: DENSE_ZS=634 ns | DENSE_AQV32_16 x0.382 | DENSE_AQV33_16 x0.412 | SNN_MEMOV3_16 x0.435 | SNN_RQC_16 x0.416 | SNN_RQT_16 x0.389 | load 1.63
+[00:39:42] [s7x-ij-timing] s2_f7 capture: DENSE_ZS=719 ns | DENSE_AQV32_16 x0.387 | DENSE_AQV33_16 x0.407 | SNN_MEMOV3_16 x0.378 | SNN_RQC_16 x0.360 | SNN_RQT_16 x0.337 | load 1.98
+[00:39:46] [s7x-ij-timing] s2_f7 random: DENSE_ZS=755 ns | DENSE_AQV32_16 x0.375 | DENSE_AQV33_16 x0.399 | SNN_MEMOV3_16 x0.372 | SNN_RQC_16 x0.352 | SNN_RQT_16 x0.331 | load 1.98
+[00:39:50] [s7x-ij-timing] s2_f8 capture: DENSE_ZS=643 ns | DENSE_AQV32_16 x0.435 | DENSE_AQV33_16 x0.458 | SNN_MEMOV3_16 x0.394 | SNN_RQC_16 x0.371 | SNN_RQT_16 x0.346 | load 1.98
+[00:39:54] [s7x-ij-timing] s2_f8 random: DENSE_ZS=669 ns | DENSE_AQV32_16 x0.426 | DENSE_AQV33_16 x0.451 | SNN_MEMOV3_16 x0.390 | SNN_RQC_16 x0.369 | SNN_RQT_16 x0.343 | load 1.90
+[00:39:58] [s7x-ij-timing] s2_f9 capture: DENSE_ZS=673 ns | DENSE_AQV32_16 x0.415 | DENSE_AQV33_16 x0.435 | SNN_MEMOV3_16 x0.374 | SNN_RQC_16 x0.345 | SNN_RQT_16 x0.321 | load 1.83
+[00:40:02] [s7x-ij-timing] s2_f9 random: DENSE_ZS=712 ns | DENSE_AQV32_16 x0.401 | DENSE_AQV33_16 x0.425 | SNN_MEMOV3_16 x0.365 | SNN_RQC_16 x0.337 | SNN_RQT_16 x0.312 | load 3.12
+[00:40:02] [s7x-ij-timing] selesai: /home/jupyteruser/nix-ext-backup/0-eksperimen-final/0-snn-ae-revision/13-s7x-ij/results/timing/edge_iiotset
+[2026-10-30 00:40:03] mulai timing ciciot2023 | loadavg 3.12 1.94 1.48 5/2222 1268383
+[00:40:05] [s7x-ij-timing] guard OK: DESIGN.md sha 27d0e1222c86…, check 60/60 lolos
+[00:40:06] [s7x-ij-timing] core 9 | nice 10 | kernel sha 3fc05fd16fa5… | load (3.0322265625, 1.94482421875, 1.48681640625)
+WARNING:tensorflow:AutoGraph could not transform <bound method SpikingLayer.call of <SpikingLayer object at 0x76667a7bf310>> and will run it as-is.
+Cause: Unable to locate the source code of <bound method SpikingLayer.call of <SpikingLayer object at 0x76667a7bf310>>. Note that functions defined in certain environments, like the interactive Python shell, do not expose their source code. If that is the case, you should define them in a .py source file. If you are certain the code is graph-compatible, wrap the call using @tf.autograph.experimental.do_not_convert. Original error: source code not available
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+[00:40:24] [s7x-ij-timing] s0_f0 capture: DENSE_ZS=817 ns | DENSE_AQV32_16 x0.323 | DENSE_AQV33_16 x0.361 | SNN_MEMOV3_16 x0.288 | SNN_RQC_16 x0.276 | SNN_RQT_16 x0.272 | load 3.60
+[00:40:37] [s7x-ij-timing] s0_f0 random: DENSE_ZS=875 ns | DENSE_AQV32_16 x0.315 | DENSE_AQV33_16 x0.366 | SNN_MEMOV3_16 x0.299 | SNN_RQC_16 x0.286 | SNN_RQT_16 x0.278 | load 4.33
+[00:40:50] [s7x-ij-timing] s0_f1 capture: DENSE_ZS=563 ns | DENSE_AQV32_16 x0.427 | DENSE_AQV33_16 x0.451 | SNN_MEMOV3_16 x0.431 | SNN_RQC_16 x0.409 | SNN_RQT_16 x0.390 | load 4.26
+[00:41:02] [s7x-ij-timing] s0_f1 random: DENSE_ZS=643 ns | DENSE_AQV32_16 x0.385 | DENSE_AQV33_16 x0.419 | SNN_MEMOV3_16 x0.408 | SNN_RQC_16 x0.383 | SNN_RQT_16 x0.364 | load 3.69
+[00:41:15] [s7x-ij-timing] s0_f2 capture: DENSE_ZS=545 ns | DENSE_AQV32_16 x0.438 | DENSE_AQV33_16 x0.455 | SNN_MEMOV3_16 x0.401 | SNN_RQC_16 x0.382 | SNN_RQT_16 x0.375 | load 3.43
+[00:41:26] [s7x-ij-timing] s0_f2 random: DENSE_ZS=603 ns | DENSE_AQV32_16 x0.407 | DENSE_AQV33_16 x0.431 | SNN_MEMOV3_16 x0.380 | SNN_RQC_16 x0.363 | SNN_RQT_16 x0.352 | load 3.04
+[00:41:40] [s7x-ij-timing] s0_f3 capture: DENSE_ZS=741 ns | DENSE_AQV32_16 x0.365 | DENSE_AQV33_16 x0.372 | SNN_MEMOV3_16 x0.310 | SNN_RQC_16 x0.293 | SNN_RQT_16 x0.286 | load 2.96
+[00:41:53] [s7x-ij-timing] s0_f3 random: DENSE_ZS=742 ns | DENSE_AQV32_16 x0.370 | DENSE_AQV33_16 x0.391 | SNN_MEMOV3_16 x0.332 | SNN_RQC_16 x0.312 | SNN_RQT_16 x0.302 | load 2.61
+[00:42:07] [s7x-ij-timing] s0_f4 capture: DENSE_ZS=790 ns | DENSE_AQV32_16 x0.340 | DENSE_AQV33_16 x0.344 | SNN_MEMOV3_16 x0.299 | SNN_RQC_16 x0.290 | SNN_RQT_16 x0.282 | load 2.47
+[00:42:20] [s7x-ij-timing] s0_f4 random: DENSE_ZS=842 ns | DENSE_AQV32_16 x0.325 | DENSE_AQV33_16 x0.336 | SNN_MEMOV3_16 x0.299 | SNN_RQC_16 x0.290 | SNN_RQT_16 x0.278 | load 2.33
+[00:42:35] [s7x-ij-timing] s0_f5 capture: DENSE_ZS=771 ns | DENSE_AQV32_16 x0.361 | DENSE_AQV33_16 x0.379 | SNN_MEMOV3_16 x0.310 | SNN_RQC_16 x0.292 | SNN_RQT_16 x0.283 | load 2.25
+[00:42:48] [s7x-ij-timing] s0_f5 random: DENSE_ZS=789 ns | DENSE_AQV32_16 x0.352 | DENSE_AQV33_16 x0.392 | SNN_MEMOV3_16 x0.331 | SNN_RQC_16 x0.310 | SNN_RQT_16 x0.303 | load 2.27
+[00:43:01] [s7x-ij-timing] s0_f6 capture: DENSE_ZS=563 ns | DENSE_AQV32_16 x0.420 | DENSE_AQV33_16 x0.435 | SNN_MEMOV3_16 x0.437 | SNN_RQC_16 x0.414 | SNN_RQT_16 x0.404 | load 2.27
+[00:43:13] [s7x-ij-timing] s0_f6 random: DENSE_ZS=645 ns | DENSE_AQV32_16 x0.379 | DENSE_AQV33_16 x0.403 | SNN_MEMOV3_16 x0.413 | SNN_RQC_16 x0.391 | SNN_RQT_16 x0.379 | load 2.23
+[00:43:26] [s7x-ij-timing] s0_f7 capture: DENSE_ZS=553 ns | DENSE_AQV32_16 x0.432 | DENSE_AQV33_16 x0.456 | SNN_MEMOV3_16 x0.435 | SNN_RQC_16 x0.411 | SNN_RQT_16 x0.395 | load 2.11
+[00:43:37] [s7x-ij-timing] s0_f7 random: DENSE_ZS=637 ns | DENSE_AQV32_16 x0.388 | DENSE_AQV33_16 x0.423 | SNN_MEMOV3_16 x0.409 | SNN_RQC_16 x0.382 | SNN_RQT_16 x0.365 | load 2.18
+[00:43:51] [s7x-ij-timing] s0_f8 capture: DENSE_ZS=508 ns | DENSE_AQV32_16 x0.464 | DENSE_AQV33_16 x0.491 | SNN_MEMOV3_16 x0.491 | SNN_RQC_16 x0.476 | SNN_RQT_16 x0.460 | load 2.14
+[00:44:02] [s7x-ij-timing] s0_f8 random: DENSE_ZS=521 ns | DENSE_AQV32_16 x0.466 | DENSE_AQV33_16 x0.508 | SNN_MEMOV3_16 x0.517 | SNN_RQC_16 x0.502 | SNN_RQT_16 x0.481 | load 2.12
+[00:44:15] [s7x-ij-timing] s0_f9 capture: DENSE_ZS=539 ns | DENSE_AQV32_16 x0.447 | DENSE_AQV33_16 x0.483 | SNN_MEMOV3_16 x0.438 | SNN_RQC_16 x0.406 | SNN_RQT_16 x0.396 | load 2.10
+[00:44:27] [s7x-ij-timing] s0_f9 random: DENSE_ZS=574 ns | DENSE_AQV32_16 x0.440 | DENSE_AQV33_16 x0.484 | SNN_MEMOV3_16 x0.437 | SNN_RQC_16 x0.405 | SNN_RQT_16 x0.393 | load 2.02
+[00:44:41] [s7x-ij-timing] s1_f0 capture: DENSE_ZS=746 ns | DENSE_AQV32_16 x0.367 | DENSE_AQV33_16 x0.383 | SNN_MEMOV3_16 x0.318 | SNN_RQC_16 x0.308 | SNN_RQT_16 x0.303 | load 2.01
+[00:44:54] [s7x-ij-timing] s1_f0 random: DENSE_ZS=767 ns | DENSE_AQV32_16 x0.369 | DENSE_AQV33_16 x0.395 | SNN_MEMOV3_16 x0.335 | SNN_RQC_16 x0.320 | SNN_RQT_16 x0.314 | load 1.93
+[00:45:09] [s7x-ij-timing] s1_f1 capture: DENSE_ZS=772 ns | DENSE_AQV32_16 x0.358 | DENSE_AQV33_16 x0.378 | SNN_MEMOV3_16 x0.312 | SNN_RQC_16 x0.292 | SNN_RQT_16 x0.283 | load 1.86
+[00:45:21] [s7x-ij-timing] s1_f1 random: DENSE_ZS=809 ns | DENSE_AQV32_16 x0.351 | DENSE_AQV33_16 x0.384 | SNN_MEMOV3_16 x0.323 | SNN_RQC_16 x0.303 | SNN_RQT_16 x0.289 | load 1.82
+[00:45:35] [s7x-ij-timing] s1_f2 capture: DENSE_ZS=586 ns | DENSE_AQV32_16 x0.408 | DENSE_AQV33_16 x0.423 | SNN_MEMOV3_16 x0.418 | SNN_RQC_16 x0.388 | SNN_RQT_16 x0.370 | load 1.77
+[00:45:47] [s7x-ij-timing] s1_f2 random: DENSE_ZS=689 ns | DENSE_AQV32_16 x0.359 | DENSE_AQV33_16 x0.386 | SNN_MEMOV3_16 x0.388 | SNN_RQC_16 x0.356 | SNN_RQT_16 x0.336 | load 1.76
+[00:46:00] [s7x-ij-timing] s1_f3 capture: DENSE_ZS=598 ns | DENSE_AQV32_16 x0.391 | DENSE_AQV33_16 x0.405 | SNN_MEMOV3_16 x0.386 | SNN_RQC_16 x0.363 | SNN_RQT_16 x0.360 | load 1.87
+[00:46:11] [s7x-ij-timing] s1_f3 random: DENSE_ZS=669 ns | DENSE_AQV32_16 x0.361 | DENSE_AQV33_16 x0.390 | SNN_MEMOV3_16 x0.376 | SNN_RQC_16 x0.349 | SNN_RQT_16 x0.342 | load 1.91
+[00:46:24] [s7x-ij-timing] s1_f4 capture: DENSE_ZS=585 ns | DENSE_AQV32_16 x0.399 | DENSE_AQV33_16 x0.407 | SNN_MEMOV3_16 x0.413 | SNN_RQC_16 x0.385 | SNN_RQT_16 x0.368 | load 1.92
+[00:46:36] [s7x-ij-timing] s1_f4 random: DENSE_ZS=662 ns | DENSE_AQV32_16 x0.363 | DENSE_AQV33_16 x0.385 | SNN_MEMOV3_16 x0.400 | SNN_RQC_16 x0.368 | SNN_RQT_16 x0.343 | load 1.85
+[00:46:49] [s7x-ij-timing] s1_f5 capture: DENSE_ZS=575 ns | DENSE_AQV32_16 x0.417 | DENSE_AQV33_16 x0.443 | SNN_MEMOV3_16 x0.407 | SNN_RQC_16 x0.396 | SNN_RQT_16 x0.385 | load 2.03
+[00:47:01] [s7x-ij-timing] s1_f5 random: DENSE_ZS=658 ns | DENSE_AQV32_16 x0.380 | DENSE_AQV33_16 x0.419 | SNN_MEMOV3_16 x0.387 | SNN_RQC_16 x0.371 | SNN_RQT_16 x0.362 | load 2.25
+[00:47:14] [s7x-ij-timing] s1_f6 capture: DENSE_ZS=555 ns | DENSE_AQV32_16 x0.432 | DENSE_AQV33_16 x0.450 | SNN_MEMOV3_16 x0.412 | SNN_RQC_16 x0.389 | SNN_RQT_16 x0.378 | load 2.26
+[00:47:25] [s7x-ij-timing] s1_f6 random: DENSE_ZS=644 ns | DENSE_AQV32_16 x0.388 | DENSE_AQV33_16 x0.413 | SNN_MEMOV3_16 x0.379 | SNN_RQC_16 x0.355 | SNN_RQT_16 x0.349 | load 2.07
+[00:47:39] [s7x-ij-timing] s1_f7 capture: DENSE_ZS=663 ns | DENSE_AQV32_16 x0.411 | DENSE_AQV33_16 x0.426 | SNN_MEMOV3_16 x0.353 | SNN_RQC_16 x0.329 | SNN_RQT_16 x0.318 | load 1.99
+[00:47:51] [s7x-ij-timing] s1_f7 random: DENSE_ZS=711 ns | DENSE_AQV32_16 x0.396 | DENSE_AQV33_16 x0.423 | SNN_MEMOV3_16 x0.356 | SNN_RQC_16 x0.327 | SNN_RQT_16 x0.313 | load 1.77
+[00:48:05] [s7x-ij-timing] s1_f8 capture: DENSE_ZS=557 ns | DENSE_AQV32_16 x0.435 | DENSE_AQV33_16 x0.466 | SNN_MEMOV3_16 x0.422 | SNN_RQC_16 x0.403 | SNN_RQT_16 x0.395 | load 1.96
+[00:48:16] [s7x-ij-timing] s1_f8 random: DENSE_ZS=629 ns | DENSE_AQV32_16 x0.399 | DENSE_AQV33_16 x0.440 | SNN_MEMOV3_16 x0.400 | SNN_RQC_16 x0.379 | SNN_RQT_16 x0.366 | load 1.81
+[00:48:30] [s7x-ij-timing] s1_f9 capture: DENSE_ZS=750 ns | DENSE_AQV32_16 x0.332 | DENSE_AQV33_16 x0.368 | SNN_MEMOV3_16 x0.306 | SNN_RQC_16 x0.294 | SNN_RQT_16 x0.287 | load 2.00
+[00:48:43] [s7x-ij-timing] s1_f9 random: DENSE_ZS=786 ns | DENSE_AQV32_16 x0.327 | DENSE_AQV33_16 x0.350 | SNN_MEMOV3_16 x0.308 | SNN_RQC_16 x0.294 | SNN_RQT_16 x0.287 | load 1.84
+[00:48:58] [s7x-ij-timing] s2_f0 capture: DENSE_ZS=774 ns | DENSE_AQV32_16 x0.358 | DENSE_AQV33_16 x0.383 | SNN_MEMOV3_16 x0.316 | SNN_RQC_16 x0.304 | SNN_RQT_16 x0.290 | load 2.02
+[00:49:11] [s7x-ij-timing] s2_f0 random: DENSE_ZS=809 ns | DENSE_AQV32_16 x0.348 | DENSE_AQV33_16 x0.392 | SNN_MEMOV3_16 x0.326 | SNN_RQC_16 x0.311 | SNN_RQT_16 x0.296 | load 1.94
+[00:49:24] [s7x-ij-timing] s2_f1 capture: DENSE_ZS=548 ns | DENSE_AQV32_16 x0.436 | DENSE_AQV33_16 x0.461 | SNN_MEMOV3_16 x0.427 | SNN_RQC_16 x0.408 | SNN_RQT_16 x0.403 | load 2.02
+[00:49:35] [s7x-ij-timing] s2_f1 random: DENSE_ZS=612 ns | DENSE_AQV32_16 x0.403 | DENSE_AQV33_16 x0.436 | SNN_MEMOV3_16 x0.407 | SNN_RQC_16 x0.389 | SNN_RQT_16 x0.379 | load 1.87
+[00:49:48] [s7x-ij-timing] s2_f2 capture: DENSE_ZS=569 ns | DENSE_AQV32_16 x0.426 | DENSE_AQV33_16 x0.451 | SNN_MEMOV3_16 x0.390 | SNN_RQC_16 x0.366 | SNN_RQT_16 x0.360 | load 1.90
+[00:50:00] [s7x-ij-timing] s2_f2 random: DENSE_ZS=669 ns | DENSE_AQV32_16 x0.377 | DENSE_AQV33_16 x0.414 | SNN_MEMOV3_16 x0.362 | SNN_RQC_16 x0.336 | SNN_RQT_16 x0.329 | load 1.76
+[00:50:15] [s7x-ij-timing] s2_f3 capture: DENSE_ZS=761 ns | DENSE_AQV32_16 x0.339 | DENSE_AQV33_16 x0.377 | SNN_MEMOV3_16 x0.321 | SNN_RQC_16 x0.310 | SNN_RQT_16 x0.297 | load 2.11
+[00:50:27] [s7x-ij-timing] s2_f3 random: DENSE_ZS=771 ns | DENSE_AQV32_16 x0.345 | DENSE_AQV33_16 x0.379 | SNN_MEMOV3_16 x0.340 | SNN_RQC_16 x0.324 | SNN_RQT_16 x0.307 | load 2.60
+[00:50:42] [s7x-ij-timing] s2_f4 capture: DENSE_ZS=811 ns | DENSE_AQV32_16 x0.317 | DENSE_AQV33_16 x0.352 | SNN_MEMOV3_16 x0.292 | SNN_RQC_16 x0.283 | SNN_RQT_16 x0.274 | load 3.41
+[00:50:55] [s7x-ij-timing] s2_f4 random: DENSE_ZS=842 ns | DENSE_AQV32_16 x0.314 | DENSE_AQV33_16 x0.347 | SNN_MEMOV3_16 x0.294 | SNN_RQC_16 x0.298 | SNN_RQT_16 x0.291 | load 3.36
+[00:51:09] [s7x-ij-timing] s2_f5 capture: DENSE_ZS=612 ns | DENSE_AQV32_16 x0.386 | DENSE_AQV33_16 x0.405 | SNN_MEMOV3_16 x0.387 | SNN_RQC_16 x0.376 | SNN_RQT_16 x0.365 | load 3.06
+[00:51:21] [s7x-ij-timing] s2_f5 random: DENSE_ZS=691 ns | DENSE_AQV32_16 x0.354 | DENSE_AQV33_16 x0.386 | SNN_MEMOV3_16 x0.373 | SNN_RQC_16 x0.360 | SNN_RQT_16 x0.346 | load 2.82
+[00:51:34] [s7x-ij-timing] s2_f6 capture: DENSE_ZS=609 ns | DENSE_AQV32_16 x0.397 | DENSE_AQV33_16 x0.418 | SNN_MEMOV3_16 x0.384 | SNN_RQC_16 x0.366 | SNN_RQT_16 x0.359 | load 2.49
+[00:51:46] [s7x-ij-timing] s2_f6 random: DENSE_ZS=670 ns | DENSE_AQV32_16 x0.374 | DENSE_AQV33_16 x0.401 | SNN_MEMOV3_16 x0.371 | SNN_RQC_16 x0.351 | SNN_RQT_16 x0.349 | load 2.26
+[00:52:00] [s7x-ij-timing] s2_f7 capture: DENSE_ZS=583 ns | DENSE_AQV32_16 x0.421 | DENSE_AQV33_16 x0.449 | SNN_MEMOV3_16 x0.423 | SNN_RQC_16 x0.404 | SNN_RQT_16 x0.388 | load 2.13
+[00:52:12] [s7x-ij-timing] s2_f7 random: DENSE_ZS=665 ns | DENSE_AQV32_16 x0.388 | DENSE_AQV33_16 x0.427 | SNN_MEMOV3_16 x0.404 | SNN_RQC_16 x0.387 | SNN_RQT_16 x0.370 | load 1.95
+[00:52:25] [s7x-ij-timing] s2_f8 capture: DENSE_ZS=533 ns | DENSE_AQV32_16 x0.447 | DENSE_AQV33_16 x0.473 | SNN_MEMOV3_16 x0.432 | SNN_RQC_16 x0.404 | SNN_RQT_16 x0.397 | load 2.03
+[00:52:36] [s7x-ij-timing] s2_f8 random: DENSE_ZS=588 ns | DENSE_AQV32_16 x0.424 | DENSE_AQV33_16 x0.467 | SNN_MEMOV3_16 x0.428 | SNN_RQC_16 x0.396 | SNN_RQT_16 x0.383 | load 1.95
+[00:52:50] [s7x-ij-timing] s2_f9 capture: DENSE_ZS=618 ns | DENSE_AQV32_16 x0.385 | DENSE_AQV33_16 x0.408 | SNN_MEMOV3_16 x0.405 | SNN_RQC_16 x0.382 | SNN_RQT_16 x0.373 | load 2.10
+[00:53:02] [s7x-ij-timing] s2_f9 random: DENSE_ZS=690 ns | DENSE_AQV32_16 x0.357 | DENSE_AQV33_16 x0.392 | SNN_MEMOV3_16 x0.398 | SNN_RQC_16 x0.367 | SNN_RQT_16 x0.357 | load 2.26
+[00:53:02] [s7x-ij-timing] selesai: /home/jupyteruser/nix-ext-backup/0-eksperimen-final/0-snn-ae-revision/13-s7x-ij/results/timing/ciciot2023
+[2026-10-30 00:53:03] timing selesai
